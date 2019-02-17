@@ -1,0 +1,5 @@
+<map id="tracer::moveTram" name="tracer::moveTram">
+<area shape="rect" id="node2" href="$classtramway.html#ac11a2d8761217b5db1253cc35ea67a66" title="tramway::respectDistance\lDeSecurite" alt="" coords="176,5,349,47"/>
+<area shape="rect" id="node3" href="$classligne.html#a46e5f1af388d0c918333427098898d8b" title="ligne::arrets" alt="" coords="217,71,308,98"/>
+<area shape="rect" id="node4" href="$classliste_arrets.html#aae9dc33e355d001c9c4dc1646a2f632d" title="ACCES. " alt="" coords="180,122,345,149"/>
+</map>

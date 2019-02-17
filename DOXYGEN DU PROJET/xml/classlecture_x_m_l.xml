@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classlecture_x_m_l" kind="class" language="C++" prot="public">
+    <compoundname>lectureXML</compoundname>
+    <includes refid="lecture_x_m_l_8h" local="no">lectureXML.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlecture_x_m_l_1a12a34ee027f791fe7144531713e6a425" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string lectureXML::d_nomFichier</definition>
+        <argsstring></argsstring>
+        <name>d_nomFichier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.h" line="18" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlecture_x_m_l_1a1143069c6b2231c9a3d46411e29f1ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lectureXML::lectureXML</definition>
+        <argsstring>(std::string nomFichier, int temps)</argsstring>
+        <name>lectureXML</name>
+        <param>
+          <type>std::string</type>
+          <declname>nomFichier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>temps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Permet de lire un fichier XML. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nomFichier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- nom du fichier </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">temps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- temps d&apos;execution </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.h" line="16" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp" bodystart="13" bodyend="134"/>
+        <references refid="classtracer_1a1ac543894333a48a09a1a423d33b20a5" compoundref="tracer_8cpp" startline="146" endline="167">tracer::simulerTram</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.h" line="14" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.h" bodystart="13" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classlecture_x_m_l_1a12a34ee027f791fe7144531713e6a425" prot="private" virt="non-virtual"><scope>lectureXML</scope><name>d_nomFichier</name></member>
+      <member refid="classlecture_x_m_l_1a1143069c6b2231c9a3d46411e29f1ca0" prot="public" virt="non-virtual"><scope>lectureXML</scope><name>lectureXML</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

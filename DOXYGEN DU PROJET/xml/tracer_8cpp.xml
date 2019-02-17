@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="tracer_8cpp" kind="file" language="C++">
+    <compoundname>tracer.cpp</compoundname>
+    <includes local="yes">graphics.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">ctime</includes>
+    <includes local="no">tchar.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="tracer_8h" local="yes">tracer.h</includes>
+    <includes local="no">windows.h</includes>
+    <incdepgraph>
+      <node id="250">
+        <label>graphics.h</label>
+      </node>
+      <node id="259">
+        <label>ligne.h</label>
+        <link refid="ligne_8h"/>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>windows.h</label>
+      </node>
+      <node id="249">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp</label>
+        <link refid="tracer.cpp"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>string</label>
+      </node>
+      <node id="255">
+        <label>tracer.h</label>
+        <link refid="tracer_8h"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>listeArrets.h</label>
+        <link refid="liste_arrets_8h"/>
+        <childnode refid="258" relation="include">
+        </childnode>
+      </node>
+      <node id="252">
+        <label>ctime</label>
+      </node>
+      <node id="256">
+        <label>vector</label>
+      </node>
+      <node id="254">
+        <label>math.h</label>
+      </node>
+      <node id="251">
+        <label>iostream</label>
+      </node>
+      <node id="253">
+        <label>tchar.h</label>
+      </node>
+      <node id="260">
+        <label>listeDeTramway.h</label>
+        <link refid="liste_de_tramway_8h"/>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;graphics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ctime&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;tchar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tracer_8h" kindref="compound">tracer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="9" refid="classtracer_1ad341e6024da0488dd9c3ff9767333ab0" refkind="member"><highlight class="normal"><ref refid="classtracer_1ad341e6024da0488dd9c3ff9767333ab0" kindref="member">tracer::tracer</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>largeur,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hauteur)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/>initwindow(largeur,hauteur,</highlight><highlight class="stringliteral">&quot;defaut&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13" refid="classtracer_1a4d68d6842a65f6f153026357847b49fc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a4d68d6842a65f6f153026357847b49fc" kindref="member">tracer::placerArret</ref>(<ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/>unArret)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="14"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>setbkcolor(WHITE);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//emplavement<sp/>darret<sp/>en<sp/>circle<sp/>GREEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>setcolor(GREEN);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>circle(unArret-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>,unArret-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>,10);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>setfillstyle(SOLID_FILL,<sp/>GREEN);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>floodfill(unArret-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>,unArret-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>,GREEN);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//le<sp/>text<sp/>en<sp/>BLEU<sp/>pour<sp/>larret</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>setcolor(BLUE);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>str<sp/>=<sp/>unArret-&gt;<ref refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" kindref="member">nomArret</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>writable<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">[str.size()+<sp/>1<sp/>];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>copy(str.begin(),str.end(),writable);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>writable[str.size()]=</highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>settextstyle(SMALL_FONT,HORIZ_DIR,5);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>outtextxy(unArret-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>+5,unArret-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>+5,writable);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>writable;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>placer<sp/>les<sp/>arrets<sp/>une<sp/>ligne<sp/>sur<sp/>la<sp/>fenetre</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classtracer_1a9d82959867464033e3b68892023969ce" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a9d82959867464033e3b68892023969ce" kindref="member">tracer::placerArrets</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="34"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0<sp/>;<sp/>i&lt;uneLigne-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1a8ebe5918ee71e0c09060227253ade9d8" kindref="member">nombreArrets</ref>();i++)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>placerArret(uneLigne-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" kindref="member">accesAuCorps</ref>(i));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40" refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" kindref="member">tracer::liensArrets</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="41"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=0;i&lt;uneLigne-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1a8ebe5918ee71e0c09060227253ade9d8" kindref="member">nombreArrets</ref>()-1;i++)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setcolor(uneLigne-&gt;<ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>()+11);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>line(uneLigne-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" kindref="member">accesAuCorps</ref>(i)-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>,uneLigne-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" kindref="member">accesAuCorps</ref>(i)-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>,uneLigne-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" kindref="member">accesAuCorps</ref>(i+1)-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>,uneLigne-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" kindref="member">accesAuCorps</ref>(i+1)-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48" refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" kindref="member">tracer::placerTram</ref>(<ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>tram)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="49"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>setcolor(RED);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>rectangle(tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>-12,tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>-12,tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>+12,tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>+12);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>stringstream<sp/>convert;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>convert&lt;&lt;tram-&gt;<ref refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" kindref="member">numLigne</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>str<sp/>=<sp/>convert.str();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>writable<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">[str.size()+1];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>copy(str.begin(),str.end(),writable);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>writable[str.size()]=</highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>setcolor(BLACK);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>settextstyle(COMPLEX_FONT,HORIZ_DIR,1);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>outtextxy(tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>-5,tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>-10,writable);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>writable;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63" refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" kindref="member">tracer::placerTrams</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)</highlight><highlight class="keyword">const</highlight></codeline>
+<codeline lineno="64"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;uneLigne-&gt;<ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>()-&gt;<ref refid="classliste_de_trams_1afd3b9e87aa935dca81ce3f6d1aea6f75" kindref="member">nombreDeTrams</ref>();i++)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>placerTram(uneLigne-&gt;<ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>()-&gt;<ref refid="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" kindref="member">accesAuCorps</ref>(i));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68" refid="classtracer_1a31536796cd89d2ee47a7d5e17432bc65" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a31536796cd89d2ee47a7d5e17432bc65" kindref="member">tracer::buildLigne</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)</highlight><highlight class="keyword">const</highlight></codeline>
+<codeline lineno="69"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>placerArrets(uneLigne);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>liensArrets(uneLigne);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>placerTrams(uneLigne);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75" refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" kindref="member">tracer::moveTram</ref>(<ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>tram)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!tram-&gt;<ref refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kindref="member">sens</ref>)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/>arretArrive=tram-&gt;<ref refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kindref="member">arretActuel</ref>-&gt;<ref refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" kindref="member">prochainArret</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaX=(arretArrive-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>-tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>)/tram-&gt;<ref refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kindref="member">vitesseMax</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaY=(arretArrive-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>-tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>)/tram-&gt;<ref refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kindref="member">vitesseMax</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>==arretArrive-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref><sp/>||<sp/>tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>==arretArrive-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref><sp/>||<sp/>(deltaX&lt;0.1<sp/>&amp;&amp;<sp/>deltaY&lt;0.1))</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kindref="member">arretActuel</ref>=arretArrive;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>=arretArrive-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>=arretArrive-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;L&apos;arret<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;arretArrive-&gt;<ref refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" kindref="member">nomArret</ref>&lt;&lt;</highlight><highlight class="stringliteral">&quot;<sp/>est<sp/>desservie<sp/>par<sp/>le<sp/>tram<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;tram-&gt;<ref refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" kindref="member">numLigne</ref>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tram-&gt;<ref refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" kindref="member">respectDistanceDeSecurite</ref>())</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>+=deltaX;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>+=deltaY;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" kindref="member">terminus</ref>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tram-&gt;<ref refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kindref="member">arretActuel</ref>-&gt;<ref refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" kindref="member">prochainArret</ref>==NULL)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Le<sp/>tram<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;tram-&gt;<ref refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" kindref="member">numLigne</ref>&lt;&lt;</highlight><highlight class="stringliteral">&quot;a<sp/>atteint<sp/>son<sp/>terminus<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" kindref="member">terminus</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kindref="member">sens</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tram-&gt;<ref refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kindref="member">sens</ref>)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/>arretArriverInvers=tram-&gt;<ref refid="classtramway_1a0506569903981a08b8835a73fc49609b" kindref="member">ligneAffect</ref>-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1aae9dc33e355d001c9c4dc1646a2f632d" kindref="member">accesEnTete</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(arretArriverInvers-&gt;<ref refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" kindref="member">prochainArret</ref>!=tram-&gt;<ref refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kindref="member">arretActuel</ref>)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arretArriverInvers=arretArriverInvers-&gt;<ref refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" kindref="member">prochainArret</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaX=(arretArriverInvers-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>-tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>)/tram-&gt;<ref refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kindref="member">vitesseMax</ref>;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaY=(arretArriverInvers-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>-tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>)/tram-&gt;<ref refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kindref="member">vitesseMax</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>==arretArriverInvers-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>)<sp/>||<sp/>(tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>==arretArriverInvers-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>)<sp/>||<sp/>(deltaX&gt;-0.1<sp/>&amp;&amp;<sp/>deltaY&gt;-0.1))</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kindref="member">arretActuel</ref>=<sp/>arretArriverInvers;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>=arretArriverInvers-&gt;<ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>=arretArriverInvers-&gt;<ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tram-&gt;<ref refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" kindref="member">respectDistanceDeSecurite</ref>())</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>+=deltaX;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>+=deltaY;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" kindref="member">terminus</ref>=</highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tram-&gt;<ref refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kindref="member">arretActuel</ref>==tram-&gt;<ref refid="classtramway_1a0506569903981a08b8835a73fc49609b" kindref="member">ligneAffect</ref>-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()-&gt;<ref refid="classliste_arrets_1aae9dc33e355d001c9c4dc1646a2f632d" kindref="member">accesEnTete</ref>())</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Le<sp/>tram<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;tram-&gt;<ref refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" kindref="member">numLigne</ref>&lt;&lt;</highlight><highlight class="stringliteral">&quot;a<sp/>atteint<sp/>son<sp/>terminus<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" kindref="member">terminus</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram-&gt;<ref refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kindref="member">sens</ref>=</highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" kindref="member">tracer::moveTrams</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;i&lt;uneLigne-&gt;<ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>()-&gt;<ref refid="classliste_de_trams_1afd3b9e87aa935dca81ce3f6d1aea6f75" kindref="member">nombreDeTrams</ref>();i++)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveTram(uneLigne-&gt;<ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>()-&gt;<ref refid="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" kindref="member">accesAuCorps</ref>(i));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146" refid="classtracer_1a1ac543894333a48a09a1a423d33b20a5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a1ac543894333a48a09a1a423d33b20a5" kindref="member">tracer::simulerTram</ref>(vector&lt;ligne*&gt;<sp/>&amp;lignes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tempsSimul)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>time_t<sp/>depart,arrivee;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>time(&amp;depart);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>longueurLigne<sp/>=<sp/>lignes.size();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>difftime(arrivee,depart)&lt;tempsSimul<sp/>)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cleardevice();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;longueurLigne;i++)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buildLigne(lignes[i]);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;i&lt;longueurLigne;i++)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>moveTrams(lignes[i]);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sleep(150);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time(&amp;arrivee);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>closegraph();</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Fin<sp/>du<sp/>temps<sp/>d&apos;execution.&quot;</highlight><highlight class="normal">&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp"/>
+  </compounddef>
+</doxygen>

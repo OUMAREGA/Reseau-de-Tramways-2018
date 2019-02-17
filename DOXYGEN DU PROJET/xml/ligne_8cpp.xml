@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ligne_8cpp" kind="file" language="C++">
+    <compoundname>ligne.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">string</includes>
+    <includes refid="ligne_8h" local="yes">ligne.h</includes>
+    <incdepgraph>
+      <node id="179">
+        <label>ligne.h</label>
+        <link refid="ligne_8h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>string</label>
+      </node>
+      <node id="177">
+        <label>fstream</label>
+      </node>
+      <node id="180">
+        <label>listeArrets.h</label>
+        <link refid="liste_arrets_8h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp</label>
+        <link refid="ligne.cpp"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ligne_8h" kindref="compound">ligne.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" refkind="member"><highlight class="normal"><ref refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" kindref="member">ligne::ligne</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="17" refid="classligne_1a46cce30fd93232136e89005a3a46327a" refkind="member"><highlight class="normal"><ref refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" kindref="member">ligne::ligne</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>,std::string<sp/><ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>,<ref refid="classliste_arrets" kindref="compound">listeArrets</ref><sp/>*<sp/><ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>,<sp/><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref><sp/>*<sp/><ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>):d_numDeLigne{numDeLigne},d_nomDeLigne{<ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>},d_distanceEntreArrets{<ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>},d_arrets{<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>},d_trams{<ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="23" refid="classligne_1a2ef56d3dcf06db6971c2d44cb73ba8ad" refkind="member"><highlight class="normal"><ref refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" kindref="member">ligne::ligne</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>ligne_a_Creer)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>d_nomDeLigne=ligne_a_Creer-&gt;<ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>d_numDeLigne=ligne_a_Creer-&gt;<ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>d_arrets=ligne_a_Creer-&gt;<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>d_trams=ligne_a_Creer-&gt;<ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>d_distanceEntreArrets<sp/>=ligne_a_Creer-&gt;<ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34" refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" refkind="member"><highlight class="normal">std::string<sp/><ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">ligne::nomDeLigne</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="35"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_nomDeLigne;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41" refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">ligne::numDeLigne</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="42"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_numDeLigne;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48" refid="classligne_1a46e5f1af388d0c918333427098898d8b" refkind="member"><highlight class="normal"><ref refid="classliste_arrets" kindref="compound">listeArrets</ref><sp/>*<sp/><ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">ligne::arrets</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="49"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_arrets;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55" refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" refkind="member"><highlight class="normal"><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref><sp/>*<sp/><ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">ligne::trams</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="56"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_trams;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62" refid="classligne_1a68736df5931bd7755dc3b5c19950576f" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">ligne::distanceEntreArrets</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="63"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_distanceEntreArrets;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69" refid="classligne_1a7da92f90eb4c91c1b5446039032c298f" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">ligne::nomDeLigne</ref>(std::string<sp/><ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>d_nomDeLigne=<ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76" refid="classligne_1aa83ea0670f7d31f947dbb5fd678dc847" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">ligne::numDeLigne</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>d_numDeLigne=<ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83" refid="classligne_1a1128030fba3430f9a365f670cbd461dc" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">ligne::arrets</ref>(<ref refid="classliste_arrets" kindref="compound">listeArrets</ref><sp/>*<sp/><ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>d_arrets=<ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90" refid="classligne_1a5cde292801e3554a0bffd35ce83c49be" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">ligne::trams</ref>(<ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref><sp/>*<sp/><ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>d_trams=<ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97" refid="classligne_1ad4157a1b708436c8f07f262f1aa2b3d6" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">ligne::distanceEntreArrets</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>d_distanceEntreArrets=<ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102" refid="classligne_1ab282119bfd4ad9d32620735056ad3dac" refkind="member"><highlight class="normal"><ref refid="classligne_1ab282119bfd4ad9d32620735056ad3dac" kindref="member">ligne::~ligne</ref>()</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp"/>
+  </compounddef>
+</doxygen>

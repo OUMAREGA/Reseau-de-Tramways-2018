@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="main_8cpp" kind="file" language="C++">
+    <compoundname>main.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes refid="liste_de_tramway_8h" local="yes">listeDeTramway.h</includes>
+    <includes refid="liste_arrets_8h" local="yes">listeArrets.h</includes>
+    <includes refid="ligne_8h" local="yes">ligne.h</includes>
+    <includes refid="tracer_8h" local="yes">tracer.h</includes>
+    <includes refid="lecture_x_m_l_8h" local="yes">lectureXML.h</includes>
+    <includes local="no">windows.h</includes>
+    <includes local="yes">graphics.h</includes>
+    <incdepgraph>
+      <node id="239">
+        <label>XML/tinyxml.h</label>
+      </node>
+      <node id="247">
+        <label>graphics.h</label>
+      </node>
+      <node id="232">
+        <label>ligne.h</label>
+        <link refid="ligne_8h"/>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>windows.h</label>
+      </node>
+      <node id="233">
+        <label>string</label>
+      </node>
+      <node id="235">
+        <label>tracer.h</label>
+        <link refid="tracer_8h"/>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>fstream</label>
+      </node>
+      <node id="234">
+        <label>listeArrets.h</label>
+        <link refid="liste_arrets_8h"/>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="237">
+        <label>lectureXML.h</label>
+        <link refid="lecture_x_m_l_8h"/>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>string.h</label>
+      </node>
+      <node id="244">
+        <label>ctime</label>
+      </node>
+      <node id="236">
+        <label>vector</label>
+      </node>
+      <node id="246">
+        <label>math.h</label>
+      </node>
+      <node id="229">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</label>
+        <link refid="main.cpp"/>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>iostream</label>
+      </node>
+      <node id="242">
+        <label>tchar.h</label>
+      </node>
+      <node id="231">
+        <label>listeDeTramway.h</label>
+        <link refid="liste_de_tramway_8h"/>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>XML/tinystr.h</label>
+      </node>
+      <node id="241">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp" line="17" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp" bodystart="17" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="liste_de_tramway_8h" kindref="compound">listeDeTramway.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="liste_arrets_8h" kindref="compound">listeArrets.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ligne_8h" kindref="compound">ligne.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tracer_8h" kindref="compound">tracer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="lecture_x_m_l_8h" kindref="compound">lectureXML.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;graphics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*int<sp/>main()</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">{</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/><sp/>//int<sp/>temps;</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/>//lectureXML<sp/>xml{&quot;C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/Tram_V5.xml&quot;,30};</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>0<sp/>;</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>des<sp/>paramettres</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(argv[1]<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>argv[2]<sp/>!=<sp/>NULL<sp/>||<sp/>argc<sp/>&gt;<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classlecture_x_m_l" kindref="compound">lectureXML</ref><sp/>*<sp/>doc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classlecture_x_m_l" kindref="compound">lectureXML</ref>(argv[1],<sp/>atoi(argv[2]));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getchar();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Parametre(s)<sp/>incorrecte(s)<sp/>:<sp/>Utilisation<sp/>-&gt;<sp/>PARAM1<sp/>=<sp/>CHEMIN<sp/>|<sp/>PARAM2<sp/>=<sp/>TEMPS.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getchar();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*lectureXML<sp/>*<sp/>doc<sp/>=<sp/>new<sp/>lectureXML(&quot;C:/Users/Fadel/Desktop/Tram_V5.xml&quot;,<sp/>55540);</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/>getchar();*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp"/>
+  </compounddef>
+</doxygen>

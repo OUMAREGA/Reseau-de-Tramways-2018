@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="tracer_8h" kind="file" language="C++">
+    <compoundname>tracer.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">vector</includes>
+    <includes refid="liste_arrets_8h" local="yes">listeArrets.h</includes>
+    <includes refid="ligne_8h" local="yes">ligne.h</includes>
+    <includes refid="liste_de_tramway_8h" local="yes">listeDeTramway.h</includes>
+    <includedby refid="lecture_x_m_l_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</includedby>
+    <includedby refid="tracer_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp</includedby>
+    <incdepgraph>
+      <node id="268">
+        <label>ligne.h</label>
+        <link refid="ligne_8h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>string</label>
+      </node>
+      <node id="263">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</label>
+        <link refid="tracer.h"/>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+      </node>
+      <node id="266">
+        <label>listeArrets.h</label>
+        <link refid="liste_arrets_8h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>vector</label>
+      </node>
+      <node id="264">
+        <label>iostream</label>
+      </node>
+      <node id="269">
+        <label>listeDeTramway.h</label>
+        <link refid="liste_de_tramway_8h"/>
+        <childnode refid="268" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="273">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp</label>
+        <link refid="tracer_8cpp"/>
+      </node>
+      <node id="270">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</label>
+        <link refid="tracer.h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+      </node>
+      <node id="271">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</label>
+        <link refid="lecture_x_m_l_8cpp"/>
+      </node>
+      <node id="272">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classtracer" prot="public">tracer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TRACER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TRACER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="liste_arrets_8h" kindref="compound">listeArrets.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ligne_8h" kindref="compound">ligne.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="liste_de_tramway_8h" kindref="compound">listeDeTramway.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classtracer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtracer" kindref="compound">tracer</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtracer_1ad341e6024da0488dd9c3ff9767333ab0" kindref="member">tracer</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>largeur,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hauteur);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a4d68d6842a65f6f153026357847b49fc" kindref="member">placerArret</ref>(<ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/>unArret)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a9d82959867464033e3b68892023969ce" kindref="member">placerArrets</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" kindref="member">liensArrets</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" kindref="member">placerTram</ref>(<ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>tram)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" kindref="member">placerTrams</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a31536796cd89d2ee47a7d5e17432bc65" kindref="member">buildLigne</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" kindref="member">moveTram</ref>(<ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>tram);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" kindref="member">moveTrams</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>uneLigne);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtracer_1a1ac543894333a48a09a1a423d33b20a5" kindref="member">simulerTram</ref>(std::vector&lt;ligne*&gt;<sp/>&amp;lignes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tempsSimul);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>TRACER_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h"/>
+  </compounddef>
+</doxygen>

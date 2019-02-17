@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classtracer" kind="class" language="C++" prot="public">
+    <compoundname>tracer</compoundname>
+    <includes refid="tracer_8h" local="no">tracer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtracer_1ad341e6024da0488dd9c3ff9767333ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tracer::tracer</definition>
+        <argsstring>(int largeur, int hauteur)</argsstring>
+        <name>tracer</name>
+        <param>
+          <type>int</type>
+          <declname>largeur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hauteur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="13" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a4d68d6842a65f6f153026357847b49fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::placerArret</definition>
+        <argsstring>(arret *unArret) const </argsstring>
+        <name>placerArret</name>
+        <param>
+          <type><ref refid="classarret" kindref="compound">arret</ref> *</type>
+          <declname>unArret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="14" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="13" bodyend="31"/>
+        <references refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" compoundref="liste_arrets_8h" startline="12">arret::posX</references>
+        <references refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" compoundref="liste_arrets_8h" startline="13">arret::posY</references>
+        <references refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" compoundref="liste_arrets_8h" startline="15">arret::nomArret</references>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a9d82959867464033e3b68892023969ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::placerArrets</definition>
+        <argsstring>(ligne *uneLigne) const </argsstring>
+        <name>placerArrets</name>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>uneLigne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="15" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="33" bodyend="39"/>
+        <references refid="classligne_1a46e5f1af388d0c918333427098898d8b" compoundref="ligne_8cpp" startline="48" endline="51">ligne::arrets</references>
+        <references refid="classliste_arrets_1a8ebe5918ee71e0c09060227253ade9d8" compoundref="liste_arrets_8cpp" startline="246" endline="249">listeArrets::nombreArrets</references>
+        <references refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" compoundref="liste_arrets_8cpp" startline="182" endline="214">listeArrets::accesAuCorps</references>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::liensArrets</definition>
+        <argsstring>(ligne *uneLigne) const </argsstring>
+        <name>liensArrets</name>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>uneLigne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="16" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="40" bodyend="47"/>
+        <references refid="classligne_1a46e5f1af388d0c918333427098898d8b" compoundref="ligne_8cpp" startline="48" endline="51">ligne::arrets</references>
+        <references refid="classliste_arrets_1a8ebe5918ee71e0c09060227253ade9d8" compoundref="liste_arrets_8cpp" startline="246" endline="249">listeArrets::nombreArrets</references>
+        <references refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" compoundref="ligne_8cpp" startline="41" endline="44">ligne::numDeLigne</references>
+        <references refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" compoundref="liste_arrets_8cpp" startline="182" endline="214">listeArrets::accesAuCorps</references>
+        <references refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" compoundref="liste_arrets_8h" startline="12">arret::posX</references>
+        <references refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" compoundref="liste_arrets_8h" startline="13">arret::posY</references>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a747a35b63db6765185c0de6f652f8c13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::placerTram</definition>
+        <argsstring>(tramway *tram) const </argsstring>
+        <name>placerTram</name>
+        <param>
+          <type><ref refid="classtramway" kindref="compound">tramway</ref> *</type>
+          <declname>tram</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="17" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="48" bodyend="62"/>
+        <references refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" compoundref="liste_de_tramway_8h" startline="20">tramway::posX</references>
+        <references refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" compoundref="liste_de_tramway_8h" startline="21">tramway::posY</references>
+        <references refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" compoundref="liste_de_tramway_8h" startline="15">tramway::numLigne</references>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1ae50f04257d21db5b947cd8548414a0f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::placerTrams</definition>
+        <argsstring>(ligne *uneLigne) const </argsstring>
+        <name>placerTrams</name>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>uneLigne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="18" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="63" bodyend="67"/>
+        <references refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" compoundref="ligne_8cpp" startline="55" endline="58">ligne::trams</references>
+        <references refid="classliste_de_trams_1afd3b9e87aa935dca81ce3f6d1aea6f75" compoundref="liste_de_tramway_8cpp" startline="288" endline="291">listeDeTrams::nombreDeTrams</references>
+        <references refid="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" compoundref="liste_de_tramway_8cpp" startline="250" endline="277">listeDeTrams::accesAuCorps</references>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a31536796cd89d2ee47a7d5e17432bc65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::buildLigne</definition>
+        <argsstring>(ligne *uneLigne) const </argsstring>
+        <name>buildLigne</name>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>uneLigne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="19" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::moveTram</definition>
+        <argsstring>(tramway *tram)</argsstring>
+        <name>moveTram</name>
+        <param>
+          <type><ref refid="classtramway" kindref="compound">tramway</ref> *</type>
+          <declname>tram</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="20" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="75" bodyend="137"/>
+        <references refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" compoundref="liste_de_tramway_8h" startline="19">tramway::sens</references>
+        <references refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" compoundref="liste_de_tramway_8h" startline="25">tramway::arretActuel</references>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+        <references refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" compoundref="liste_arrets_8h" startline="12">arret::posX</references>
+        <references refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" compoundref="liste_de_tramway_8h" startline="20">tramway::posX</references>
+        <references refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" compoundref="liste_de_tramway_8h" startline="16">tramway::vitesseMax</references>
+        <references refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" compoundref="liste_arrets_8h" startline="13">arret::posY</references>
+        <references refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" compoundref="liste_de_tramway_8h" startline="21">tramway::posY</references>
+        <references refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" compoundref="liste_arrets_8h" startline="15">arret::nomArret</references>
+        <references refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" compoundref="liste_de_tramway_8h" startline="15">tramway::numLigne</references>
+        <references refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" compoundref="liste_de_tramway_8cpp" startline="23" endline="51">tramway::respectDistanceDeSecurite</references>
+        <references refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" compoundref="liste_de_tramway_8h" startline="29">tramway::terminus</references>
+        <references refid="classtramway_1a0506569903981a08b8835a73fc49609b" compoundref="liste_de_tramway_8h" startline="23">tramway::ligneAffect</references>
+        <references refid="classligne_1a46e5f1af388d0c918333427098898d8b" compoundref="ligne_8cpp" startline="48" endline="51">ligne::arrets</references>
+        <references refid="classliste_arrets_1aae9dc33e355d001c9c4dc1646a2f632d" compoundref="liste_arrets_8cpp" startline="170" endline="177">listeArrets::accesEnTete</references>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a206500c8582dbad012b898dc922fc5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::moveTrams</definition>
+        <argsstring>(ligne *uneLigne)</argsstring>
+        <name>moveTrams</name>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>uneLigne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="21" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="139" bodyend="145"/>
+        <references refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" compoundref="ligne_8cpp" startline="55" endline="58">ligne::trams</references>
+        <references refid="classliste_de_trams_1afd3b9e87aa935dca81ce3f6d1aea6f75" compoundref="liste_de_tramway_8cpp" startline="288" endline="291">listeDeTrams::nombreDeTrams</references>
+        <references refid="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" compoundref="liste_de_tramway_8cpp" startline="250" endline="277">listeDeTrams::accesAuCorps</references>
+      </memberdef>
+      <memberdef kind="function" id="classtracer_1a1ac543894333a48a09a1a423d33b20a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tracer::simulerTram</definition>
+        <argsstring>(std::vector&lt; ligne * &gt; &amp;lignes, int tempsSimul)</argsstring>
+        <name>simulerTram</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classligne" kindref="compound">ligne</ref> * &gt; &amp;</type>
+          <declname>lignes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tempsSimul</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="22" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp" bodystart="146" bodyend="167"/>
+        <referencedby refid="classlecture_x_m_l_1a1143069c6b2231c9a3d46411e29f1ca0" compoundref="lecture_x_m_l_8cpp" startline="13" endline="134">lectureXML::lectureXML</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" line="11" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classtracer_1a31536796cd89d2ee47a7d5e17432bc65" prot="public" virt="non-virtual"><scope>tracer</scope><name>buildLigne</name></member>
+      <member refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" prot="public" virt="non-virtual"><scope>tracer</scope><name>liensArrets</name></member>
+      <member refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" prot="public" virt="non-virtual"><scope>tracer</scope><name>moveTram</name></member>
+      <member refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" prot="public" virt="non-virtual"><scope>tracer</scope><name>moveTrams</name></member>
+      <member refid="classtracer_1a4d68d6842a65f6f153026357847b49fc" prot="public" virt="non-virtual"><scope>tracer</scope><name>placerArret</name></member>
+      <member refid="classtracer_1a9d82959867464033e3b68892023969ce" prot="public" virt="non-virtual"><scope>tracer</scope><name>placerArrets</name></member>
+      <member refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" prot="public" virt="non-virtual"><scope>tracer</scope><name>placerTram</name></member>
+      <member refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" prot="public" virt="non-virtual"><scope>tracer</scope><name>placerTrams</name></member>
+      <member refid="classtracer_1a1ac543894333a48a09a1a423d33b20a5" prot="public" virt="non-virtual"><scope>tracer</scope><name>simulerTram</name></member>
+      <member refid="classtracer_1ad341e6024da0488dd9c3ff9767333ab0" prot="public" virt="non-virtual"><scope>tracer</scope><name>tracer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

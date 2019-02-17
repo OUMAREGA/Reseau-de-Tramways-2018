@@ -1,0 +1,5 @@
+<map id="tracer::placerTrams" name="tracer::placerTrams">
+<area shape="rect" id="node2" href="$classligne.html#a5f373b366977d04b0e2eaf8bf32c6036" title="ligne::trams" alt="" coords="243,5,334,32"/>
+<area shape="rect" id="node3" href="$classliste_de_trams.html#afd3b9e87aa935dca81ce3f6d1aea6f75" title="listeDeTrams::nombreDeTrams" alt="" coords="188,56,389,83"/>
+<area shape="rect" id="node4" href="$classliste_de_trams.html#a2e66b663287f770c709c16d89424818e" title="listeDeTrams::accesAuCorps" alt="" coords="193,107,384,133"/>
+</map>

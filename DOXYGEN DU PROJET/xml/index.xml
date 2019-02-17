@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classarret" kind="class"><name>arret</name>
+    <member refid="classarret_1af9ab36d65ca58c516f6f72ca840ebd7b" kind="friend"><name>listeArrets</name></member>
+    <member refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" kind="variable"><name>prochainArret</name></member>
+    <member refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kind="variable"><name>posX</name></member>
+    <member refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kind="variable"><name>posY</name></member>
+    <member refid="classarret_1afc7a6e7cb0cb73e242a4c6ad8743995c" kind="variable"><name>tempsArret</name></member>
+    <member refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" kind="variable"><name>nomArret</name></member>
+    <member refid="classarret_1aff9a2ea0c2261ea5ea0c04e5b84880bb" kind="variable"><name>numTramsSurPlace</name></member>
+    <member refid="classarret_1ae38cddedd9355eeaebbafe40bcb4b0bc" kind="function"><name>arret</name></member>
+  </compound>
+  <compound refid="classlecture_x_m_l" kind="class"><name>lectureXML</name>
+    <member refid="classlecture_x_m_l_1a12a34ee027f791fe7144531713e6a425" kind="variable"><name>d_nomFichier</name></member>
+    <member refid="classlecture_x_m_l_1a1143069c6b2231c9a3d46411e29f1ca0" kind="function"><name>lectureXML</name></member>
+  </compound>
+  <compound refid="classligne" kind="class"><name>ligne</name>
+    <member refid="classligne_1a67b542a7b057cdf31c964981b6dbf604" kind="variable"><name>d_numDeLigne</name></member>
+    <member refid="classligne_1abed2ef4da0bc3bad68563c68c0117f22" kind="variable"><name>d_nomDeLigne</name></member>
+    <member refid="classligne_1a48cc77767949481e7201cea3c31a48c9" kind="variable"><name>d_distanceEntreArrets</name></member>
+    <member refid="classligne_1a244eb7f1457d2a120d07f770f0ce154c" kind="variable"><name>d_arrets</name></member>
+    <member refid="classligne_1a40fdf732bdfb8ea2da099b7a32ed6ba6" kind="variable"><name>d_trams</name></member>
+    <member refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" kind="function"><name>ligne</name></member>
+    <member refid="classligne_1a46cce30fd93232136e89005a3a46327a" kind="function"><name>ligne</name></member>
+    <member refid="classligne_1a2ef56d3dcf06db6971c2d44cb73ba8ad" kind="function"><name>ligne</name></member>
+    <member refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kind="function"><name>nomDeLigne</name></member>
+    <member refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kind="function"><name>numDeLigne</name></member>
+    <member refid="classligne_1a46e5f1af388d0c918333427098898d8b" kind="function"><name>arrets</name></member>
+    <member refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kind="function"><name>trams</name></member>
+    <member refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kind="function"><name>distanceEntreArrets</name></member>
+    <member refid="classligne_1a7da92f90eb4c91c1b5446039032c298f" kind="function"><name>nomDeLigne</name></member>
+    <member refid="classligne_1aa83ea0670f7d31f947dbb5fd678dc847" kind="function"><name>numDeLigne</name></member>
+    <member refid="classligne_1a1128030fba3430f9a365f670cbd461dc" kind="function"><name>arrets</name></member>
+    <member refid="classligne_1a5cde292801e3554a0bffd35ce83c49be" kind="function"><name>trams</name></member>
+    <member refid="classligne_1ad4157a1b708436c8f07f262f1aa2b3d6" kind="function"><name>distanceEntreArrets</name></member>
+    <member refid="classligne_1ab282119bfd4ad9d32620735056ad3dac" kind="function"><name>~ligne</name></member>
+  </compound>
+  <compound refid="classliste_arrets" kind="class"><name>listeArrets</name>
+    <member refid="classliste_arrets_1a8d633a3f9c808feb7e7148146bb134f0" kind="variable"><name>d_tete</name></member>
+    <member refid="classliste_arrets_1aeb98a9dc87fad644ef1391f7feb6794d" kind="variable"><name>d_nombreArrets</name></member>
+    <member refid="classliste_arrets_1abbfaa5d64a48879f0786338279371b83" kind="function"><name>listeArrets</name></member>
+    <member refid="classliste_arrets_1a7168c4b4ca72f6ab07f02d4af5877586" kind="function"><name>ajoutEnTete</name></member>
+    <member refid="classliste_arrets_1adbe0e8547d19edc9bf0982296fab2dfe" kind="function"><name>ajoutAuCorps</name></member>
+    <member refid="classliste_arrets_1ad9ed677ee4b46f66fdfaba2386dd76c0" kind="function"><name>ajoutAuQueue</name></member>
+    <member refid="classliste_arrets_1a20fce6e1d98821ff429d7f7f3c9884d3" kind="function"><name>supprEnTete</name></member>
+    <member refid="classliste_arrets_1a41a1078cbefd801be82a355bd3aa7a75" kind="function"><name>supprAuCorps</name></member>
+    <member refid="classliste_arrets_1a2321a82dd320d42c1a448035e0bd80e9" kind="function"><name>supprAuQueue</name></member>
+    <member refid="classliste_arrets_1aae9dc33e355d001c9c4dc1646a2f632d" kind="function"><name>accesEnTete</name></member>
+    <member refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" kind="function"><name>accesAuCorps</name></member>
+    <member refid="classliste_arrets_1a29a7a234c4abe23456cea8d2df1029bf" kind="function"><name>accesAuQueue</name></member>
+    <member refid="classliste_arrets_1a7e7a28f3a13ff29e1b62e5c19751650b" kind="function"><name>afficherListe</name></member>
+    <member refid="classliste_arrets_1a5731637ae9971b0188c3d4122a52b022" kind="function"><name>estAucunArret</name></member>
+    <member refid="classliste_arrets_1a8ebe5918ee71e0c09060227253ade9d8" kind="function"><name>nombreArrets</name></member>
+    <member refid="classliste_arrets_1afdde522c1f07a7bd3b9e3f9dc202c532" kind="function"><name>~listeArrets</name></member>
+  </compound>
+  <compound refid="classliste_de_trams" kind="class"><name>listeDeTrams</name>
+    <member refid="classliste_de_trams_1a8d90be1f5aa3c64da2a9e889afb52140" kind="variable"><name>d_tete</name></member>
+    <member refid="classliste_de_trams_1ab5559640770f04bcbde66a905dcdc5d1" kind="variable"><name>d_nombreDeTrams</name></member>
+    <member refid="classliste_de_trams_1a63cd8796fa2fd5b877f378b1c4e8d66d" kind="function"><name>listeDeTrams</name></member>
+    <member refid="classliste_de_trams_1ac4f850a2d93ad983b485cfa83fdcb57d" kind="function"><name>~listeDeTrams</name></member>
+    <member refid="classliste_de_trams_1acc9f9a3e125a1801cfe108a4a9b27cfc" kind="function"><name>ajoutEnTete</name></member>
+    <member refid="classliste_de_trams_1af969635f70bda1d3b429a1220e649d7c" kind="function"><name>ajoutAuQueue</name></member>
+    <member refid="classliste_de_trams_1aae576aa98d9709644fee9dda66ea54f7" kind="function"><name>ajoutAuCorps</name></member>
+    <member refid="classliste_de_trams_1a495cc9d541621a18e3c10817e62d31bd" kind="function"><name>supprEnTete</name></member>
+    <member refid="classliste_de_trams_1aea83e66431a0a5ff31a631a04f3284cc" kind="function"><name>supprAuQueue</name></member>
+    <member refid="classliste_de_trams_1a718310361597fbe63375c37f3028defa" kind="function"><name>supprAuCorps</name></member>
+    <member refid="classliste_de_trams_1aa494f9ab59eb0250608782b536f2aa5f" kind="function"><name>accesEnTete</name></member>
+    <member refid="classliste_de_trams_1a442cc0dc48c4d8abfd3e8de30a85e24c" kind="function"><name>accesAuQueue</name></member>
+    <member refid="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" kind="function"><name>accesAuCorps</name></member>
+    <member refid="classliste_de_trams_1ab1d9638e4f071077f5182413ae8b1c8c" kind="function"><name>afficherListe</name></member>
+    <member refid="classliste_de_trams_1a137520c68e8c14b3cbfa1711d21849a1" kind="function"><name>estVide</name></member>
+    <member refid="classliste_de_trams_1afd3b9e87aa935dca81ce3f6d1aea6f75" kind="function"><name>nombreDeTrams</name></member>
+  </compound>
+  <compound refid="classtracer" kind="class"><name>tracer</name>
+    <member refid="classtracer_1ad341e6024da0488dd9c3ff9767333ab0" kind="function"><name>tracer</name></member>
+    <member refid="classtracer_1a4d68d6842a65f6f153026357847b49fc" kind="function"><name>placerArret</name></member>
+    <member refid="classtracer_1a9d82959867464033e3b68892023969ce" kind="function"><name>placerArrets</name></member>
+    <member refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" kind="function"><name>liensArrets</name></member>
+    <member refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" kind="function"><name>placerTram</name></member>
+    <member refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" kind="function"><name>placerTrams</name></member>
+    <member refid="classtracer_1a31536796cd89d2ee47a7d5e17432bc65" kind="function"><name>buildLigne</name></member>
+    <member refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" kind="function"><name>moveTram</name></member>
+    <member refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" kind="function"><name>moveTrams</name></member>
+    <member refid="classtracer_1a1ac543894333a48a09a1a423d33b20a5" kind="function"><name>simulerTram</name></member>
+  </compound>
+  <compound refid="classtramway" kind="class"><name>tramway</name>
+    <member refid="classtramway_1a769de17fc42804fb0d2a6751abb27e2f" kind="friend"><name>listeDeTrams</name></member>
+    <member refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" kind="variable"><name>numLigne</name></member>
+    <member refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kind="variable"><name>vitesseMax</name></member>
+    <member refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kind="variable"><name>sens</name></member>
+    <member refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kind="variable"><name>posX</name></member>
+    <member refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kind="variable"><name>posY</name></member>
+    <member refid="classtramway_1a0506569903981a08b8835a73fc49609b" kind="variable"><name>ligneAffect</name></member>
+    <member refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" kind="variable"><name>suivant</name></member>
+    <member refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kind="variable"><name>arretActuel</name></member>
+    <member refid="classtramway_1a59e30ad7e6df61e54fe2b326bd9e6134" kind="variable"><name>distanceSecurite</name></member>
+    <member refid="classtramway_1a85b44399cbbf04ec765d114465a4aa1f" kind="variable"><name>distanceArret</name></member>
+    <member refid="classtramway_1a5eab187ab73b4b91a158dc05fd8ed066" kind="variable"><name>vitesseActuelle</name></member>
+    <member refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" kind="variable"><name>terminus</name></member>
+    <member refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" kind="function"><name>tramway</name></member>
+    <member refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" kind="function"><name>respectDistanceDeSecurite</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="lecture_x_m_l_8cpp" kind="file"><name>lectureXML.cpp</name>
+  </compound>
+  <compound refid="lecture_x_m_l_8h" kind="file"><name>lectureXML.h</name>
+  </compound>
+  <compound refid="ligne_8cpp" kind="file"><name>ligne.cpp</name>
+  </compound>
+  <compound refid="ligne_8h" kind="file"><name>ligne.h</name>
+  </compound>
+  <compound refid="liste_arrets_8cpp" kind="file"><name>listeArrets.cpp</name>
+  </compound>
+  <compound refid="liste_arrets_8h" kind="file"><name>listeArrets.h</name>
+  </compound>
+  <compound refid="liste_de_tramway_8cpp" kind="file"><name>listeDeTramway.cpp</name>
+  </compound>
+  <compound refid="liste_de_tramway_8h" kind="file"><name>listeDeTramway.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="tracer_8cpp" kind="file"><name>tracer.cpp</name>
+  </compound>
+  <compound refid="tracer_8h" kind="file"><name>tracer.h</name>
+  </compound>
+  <compound refid="dir_11d3dbf84b058cd74de997c2cb0ed3c5" kind="dir"><name>C:/Users/oumar12/Desktop</name>
+  </compound>
+  <compound refid="dir_6c724d8d51f031564a62281de0a9ebc2" kind="dir"><name>C:/Users/oumar12</name>
+  </compound>
+  <compound refid="dir_73d9450fea6393354fcaf327eda0406b" kind="dir"><name>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS</name>
+  </compound>
+  <compound refid="dir_9725007e999bab24761c9d1c2deacea8" kind="dir"><name>C:/Users/oumar12/Desktop/TRAMWAYS</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

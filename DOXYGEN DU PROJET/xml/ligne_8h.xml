@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ligne_8h" kind="file" language="C++">
+    <compoundname>ligne.h</compoundname>
+    <includes local="no">string</includes>
+    <includes refid="liste_arrets_8h" local="yes">listeArrets.h</includes>
+    <includedby refid="liste_de_tramway_8h" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h</includedby>
+    <includedby refid="lecture_x_m_l_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</includedby>
+    <includedby refid="tracer_8h" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</includedby>
+    <includedby refid="ligne_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</includedby>
+    <incdepgraph>
+      <node id="182">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h</label>
+        <link refid="ligne.h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>string</label>
+      </node>
+      <node id="184">
+        <label>listeArrets.h</label>
+        <link refid="liste_arrets_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="185">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h</label>
+        <link refid="ligne.h"/>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp</label>
+        <link refid="liste_de_tramway_8cpp"/>
+      </node>
+      <node id="190">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp</label>
+        <link refid="tracer_8cpp"/>
+      </node>
+      <node id="188">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</label>
+        <link refid="tracer_8h"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp</label>
+        <link refid="ligne_8cpp"/>
+      </node>
+      <node id="187">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</label>
+        <link refid="lecture_x_m_l_8cpp"/>
+      </node>
+      <node id="189">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="186">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h</label>
+        <link refid="liste_de_tramway_8h"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classligne" prot="public">ligne</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>LIGNE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIGNE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="liste_arrets_8h" kindref="compound">listeArrets.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref>;</highlight></codeline>
+<codeline lineno="8" refid="classligne" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classligne" kindref="compound">ligne</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" kindref="member">ligne</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" kindref="member">ligne</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>,std::string<sp/><ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>,<sp/><ref refid="classliste_arrets" kindref="compound">listeArrets</ref><sp/>*<sp/><ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>,<sp/><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref><sp/>*<sp/><ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" kindref="member">ligne</ref>(<ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>ligne_a_Creer);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classliste_arrets" kindref="compound">listeArrets</ref><sp/>*<sp/><ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref><sp/>*<sp/><ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" kindref="member">nomDeLigne</ref>(std::string<sp/>nomDeLigne);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" kindref="member">numDeLigne</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numDeLigne);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1a46e5f1af388d0c918333427098898d8b" kindref="member">arrets</ref>(<ref refid="classliste_arrets" kindref="compound">listeArrets</ref><sp/>*<sp/>arrets);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" kindref="member">trams</ref>(<ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref><sp/>*<sp/>trams);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classligne_1a68736df5931bd7755dc3b5c19950576f" kindref="member">distanceEntreArrets</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distanceEntreArrets);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classligne_1ab282119bfd4ad9d32620735056ad3dac" kindref="member">~ligne</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d_numDeLigne;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>d_nomDeLigne;<sp/></highlight><highlight class="comment">//<sp/>nom<sp/>de<sp/>l&apos;arret</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d_distanceEntreArrets;<sp/></highlight><highlight class="comment">//<sp/>distance<sp/>entre<sp/>chaque<sp/>arret</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classliste_arrets" kindref="compound">listeArrets</ref><sp/>*<sp/>d_arrets<sp/>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref><sp/>*<sp/>d_trams<sp/>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>LIGNE_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h"/>
+  </compounddef>
+</doxygen>

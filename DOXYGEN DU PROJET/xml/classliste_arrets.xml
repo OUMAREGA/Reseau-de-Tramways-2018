@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classliste_arrets" kind="class" language="C++" prot="public">
+    <compoundname>listeArrets</compoundname>
+    <includes refid="liste_arrets_8h" local="no">listeArrets.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classliste_arrets_1a8d633a3f9c808feb7e7148146bb134f0" prot="private" static="no" mutable="no">
+        <type><ref refid="classarret" kindref="compound">arret</ref> *</type>
+        <definition>arret* listeArrets::d_tete</definition>
+        <argsstring></argsstring>
+        <name>d_tete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="44" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classliste_arrets_1aeb98a9dc87fad644ef1391f7feb6794d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int listeArrets::d_nombreArrets</definition>
+        <argsstring></argsstring>
+        <name>d_nombreArrets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="45" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classliste_arrets_1abbfaa5d64a48879f0786338279371b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>listeArrets::listeArrets</definition>
+        <argsstring>()</argsstring>
+        <name>listeArrets</name>
+        <briefdescription>
+<para>Constructeur. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="23" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a7168c4b4ca72f6ab07f02d4af5877586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeArrets::ajoutEnTete</definition>
+        <argsstring>(double posX, double posY, int tempsArret, std::string nomArret)</argsstring>
+        <name>ajoutEnTete</name>
+        <param>
+          <type>double</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tempsArret</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>nomArret</declname>
+        </param>
+        <briefdescription>
+<para>AJOUTS. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">posX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tempsArret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nomArret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="26" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="50" bodyend="56"/>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+        <referencedby refid="classliste_arrets_1adbe0e8547d19edc9bf0982296fab2dfe" compoundref="liste_arrets_8cpp" startline="64" endline="83">ajoutAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1adbe0e8547d19edc9bf0982296fab2dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeArrets::ajoutAuCorps</definition>
+        <argsstring>(double posX, double posY, int tempsArret, std::string nomArret, int corps)</argsstring>
+        <name>ajoutAuCorps</name>
+        <param>
+          <type>double</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tempsArret</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>nomArret</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>corps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">posX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tempsArret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nomArret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">corsp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- la position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="27" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="64" bodyend="83"/>
+        <references refid="classliste_arrets_1a7168c4b4ca72f6ab07f02d4af5877586" compoundref="liste_arrets_8cpp" startline="50" endline="56">ajoutEnTete</references>
+        <references refid="classliste_arrets_1ad9ed677ee4b46f66fdfaba2386dd76c0" compoundref="liste_arrets_8cpp" startline="24" endline="43">ajoutAuQueue</references>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1ad9ed677ee4b46f66fdfaba2386dd76c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeArrets::ajoutAuQueue</definition>
+        <argsstring>(double posX, double posY, int tempsArret, std::string nomArret)</argsstring>
+        <name>ajoutAuQueue</name>
+        <param>
+          <type>double</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tempsArret</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>nomArret</declname>
+        </param>
+        <briefdescription>
+<para>AJOUTS. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">posX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">tempsArret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nomArret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="28" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="24" bodyend="43"/>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+        <referencedby refid="classliste_arrets_1adbe0e8547d19edc9bf0982296fab2dfe" compoundref="liste_arrets_8cpp" startline="64" endline="83">ajoutAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a20fce6e1d98821ff429d7f7f3c9884d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeArrets::supprEnTete</definition>
+        <argsstring>()</argsstring>
+        <name>supprEnTete</name>
+        <briefdescription>
+<para>SUPPRIMER. </para>        </briefdescription>
+        <detaileddescription>
+<para>SUPPRESSION.</para><para>Delete en tete </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="30" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="104" bodyend="115"/>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+        <referencedby refid="classliste_arrets_1a41a1078cbefd801be82a355bd3aa7a75" compoundref="liste_arrets_8cpp" startline="145" endline="165">supprAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a41a1078cbefd801be82a355bd3aa7a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeArrets::supprAuCorps</definition>
+        <argsstring>(int corps)</argsstring>
+        <name>supprAuCorps</name>
+        <param>
+          <type>int</type>
+          <declname>corps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">-</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>corps -supprimer a une position </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="31" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="145" bodyend="165"/>
+        <references refid="classliste_arrets_1a20fce6e1d98821ff429d7f7f3c9884d3" compoundref="liste_arrets_8cpp" startline="104" endline="115">supprEnTete</references>
+        <references refid="classliste_arrets_1a2321a82dd320d42c1a448035e0bd80e9" compoundref="liste_arrets_8cpp" startline="119" endline="141">supprAuQueue</references>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a2321a82dd320d42c1a448035e0bd80e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeArrets::supprAuQueue</definition>
+        <argsstring>()</argsstring>
+        <name>supprAuQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>delete au queue </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="32" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="119" bodyend="141"/>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+        <referencedby refid="classliste_arrets_1a41a1078cbefd801be82a355bd3aa7a75" compoundref="liste_arrets_8cpp" startline="145" endline="165">supprAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1aae9dc33e355d001c9c4dc1646a2f632d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classarret" kindref="compound">arret</ref> *</type>
+        <definition>arret * listeArrets::accesEnTete</definition>
+        <argsstring>() const </argsstring>
+        <name>accesEnTete</name>
+        <briefdescription>
+<para>ACCES. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- le premier arret </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="34" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="170" bodyend="177"/>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classarret" kindref="compound">arret</ref> *</type>
+        <definition>arret * listeArrets::accesAuCorps</definition>
+        <argsstring>(int corps) const </argsstring>
+        <name>accesAuCorps</name>
+        <param>
+          <type>int</type>
+          <declname>corps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">-</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>corps </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>- a une position </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="35" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="182" bodyend="214"/>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+        <referencedby refid="classtracer_1a9d82959867464033e3b68892023969ce" compoundref="tracer_8cpp" startline="33" endline="39">tracer::placerArrets</referencedby>
+        <referencedby refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" compoundref="tracer_8cpp" startline="40" endline="47">tracer::liensArrets</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a29a7a234c4abe23456cea8d2df1029bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classarret" kindref="compound">arret</ref> *</type>
+        <definition>arret * listeArrets::accesAuQueue</definition>
+        <argsstring>() const </argsstring>
+        <name>accesAuQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- retourne le dernier arret </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="36" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="218" bodyend="235"/>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a7e7a28f3a13ff29e1b62e5c19751650b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeArrets::afficherListe</definition>
+        <argsstring>() const </argsstring>
+        <name>afficherListe</name>
+        <briefdescription>
+<para>Affiche la liste des arrets au niveau console. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="37" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="85" bodyend="99"/>
+        <references refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" compoundref="liste_arrets_8h" startline="15">arret::nomArret</references>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a5731637ae9971b0188c3d4122a52b022" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool listeArrets::estAucunArret</definition>
+        <argsstring>() const </argsstring>
+        <name>estAucunArret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- si le nombre arret est vide </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="39" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="239" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1a8ebe5918ee71e0c09060227253ade9d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int listeArrets::nombreArrets</definition>
+        <argsstring>() const </argsstring>
+        <name>nombreArrets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- le nombre d&apos;arrets </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="40" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="246" bodyend="249"/>
+        <referencedby refid="classtracer_1a9d82959867464033e3b68892023969ce" compoundref="tracer_8cpp" startline="33" endline="39">tracer::placerArrets</referencedby>
+        <referencedby refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" compoundref="tracer_8cpp" startline="40" endline="47">tracer::liensArrets</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_arrets_1afdde522c1f07a7bd3b9e3f9dc202c532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>listeArrets::~listeArrets</definition>
+        <argsstring>()</argsstring>
+        <name>~listeArrets</name>
+        <briefdescription>
+<para>Destructeur. </para>        </briefdescription>
+        <detaileddescription>
+<para>DESTRUCTEUR. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="42" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp" bodystart="251" bodyend="260"/>
+        <references refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" compoundref="liste_arrets_8h" startline="11">arret::prochainArret</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" line="20" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h" bodystart="19" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classliste_arrets_1aa9a45866bcc46e69260fdb168cec4407" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>accesAuCorps</name></member>
+      <member refid="classliste_arrets_1a29a7a234c4abe23456cea8d2df1029bf" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>accesAuQueue</name></member>
+      <member refid="classliste_arrets_1aae9dc33e355d001c9c4dc1646a2f632d" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>accesEnTete</name></member>
+      <member refid="classliste_arrets_1a7e7a28f3a13ff29e1b62e5c19751650b" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>afficherListe</name></member>
+      <member refid="classliste_arrets_1adbe0e8547d19edc9bf0982296fab2dfe" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>ajoutAuCorps</name></member>
+      <member refid="classliste_arrets_1ad9ed677ee4b46f66fdfaba2386dd76c0" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>ajoutAuQueue</name></member>
+      <member refid="classliste_arrets_1a7168c4b4ca72f6ab07f02d4af5877586" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>ajoutEnTete</name></member>
+      <member refid="classliste_arrets_1aeb98a9dc87fad644ef1391f7feb6794d" prot="private" virt="non-virtual"><scope>listeArrets</scope><name>d_nombreArrets</name></member>
+      <member refid="classliste_arrets_1a8d633a3f9c808feb7e7148146bb134f0" prot="private" virt="non-virtual"><scope>listeArrets</scope><name>d_tete</name></member>
+      <member refid="classliste_arrets_1a5731637ae9971b0188c3d4122a52b022" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>estAucunArret</name></member>
+      <member refid="classliste_arrets_1abbfaa5d64a48879f0786338279371b83" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>listeArrets</name></member>
+      <member refid="classliste_arrets_1a8ebe5918ee71e0c09060227253ade9d8" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>nombreArrets</name></member>
+      <member refid="classliste_arrets_1a41a1078cbefd801be82a355bd3aa7a75" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>supprAuCorps</name></member>
+      <member refid="classliste_arrets_1a2321a82dd320d42c1a448035e0bd80e9" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>supprAuQueue</name></member>
+      <member refid="classliste_arrets_1a20fce6e1d98821ff429d7f7f3c9884d3" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>supprEnTete</name></member>
+      <member refid="classliste_arrets_1afdde522c1f07a7bd3b9e3f9dc202c532" prot="public" virt="non-virtual"><scope>listeArrets</scope><name>~listeArrets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

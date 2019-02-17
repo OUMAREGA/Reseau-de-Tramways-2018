@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classligne" kind="class" language="C++" prot="public">
+    <compoundname>ligne</compoundname>
+    <includes refid="ligne_8h" local="no">ligne.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classligne_1a67b542a7b057cdf31c964981b6dbf604" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ligne::d_numDeLigne</definition>
+        <argsstring></argsstring>
+        <name>d_numDeLigne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="29" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classligne_1abed2ef4da0bc3bad68563c68c0117f22" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ligne::d_nomDeLigne</definition>
+        <argsstring></argsstring>
+        <name>d_nomDeLigne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="30" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classligne_1a48cc77767949481e7201cea3c31a48c9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ligne::d_distanceEntreArrets</definition>
+        <argsstring></argsstring>
+        <name>d_distanceEntreArrets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="31" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classligne_1a244eb7f1457d2a120d07f770f0ce154c" prot="private" static="no" mutable="no">
+        <type><ref refid="classliste_arrets" kindref="compound">listeArrets</ref> *</type>
+        <definition>listeArrets* ligne::d_arrets</definition>
+        <argsstring></argsstring>
+        <name>d_arrets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="32" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classligne_1a40fdf732bdfb8ea2da099b7a32ed6ba6" prot="private" static="no" mutable="no">
+        <type><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref> *</type>
+        <definition>listeDeTrams* ligne::d_trams</definition>
+        <argsstring></argsstring>
+        <name>d_trams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="33" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ligne::ligne</definition>
+        <argsstring>()</argsstring>
+        <name>ligne</name>
+        <briefdescription>
+<para>Constructeur par default. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="11" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="7" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a46cce30fd93232136e89005a3a46327a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ligne::ligne</definition>
+        <argsstring>(int numDeLigne, std::string nomDeLigne, double distanceEntreArrets, listeArrets *arrets, listeDeTrams *trams)</argsstring>
+        <name>ligne</name>
+        <param>
+          <type>int</type>
+          <declname>numDeLigne</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>nomDeLigne</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>distanceEntreArrets</declname>
+        </param>
+        <param>
+          <type><ref refid="classliste_arrets" kindref="compound">listeArrets</ref> *</type>
+          <declname>arrets</declname>
+        </param>
+        <param>
+          <type><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref> *</type>
+          <declname>trams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructeur par défaut <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">numLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- numero de ligne </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">nomLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- nom de ligne </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">arrets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- liste des arrets </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">trams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- listes des trams </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">distanceArret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- distance entre chaque arret </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="12" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="17" bodyend="18"/>
+        <references refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" compoundref="ligne_8cpp" startline="34" endline="37">nomDeLigne</references>
+        <references refid="classligne_1a68736df5931bd7755dc3b5c19950576f" compoundref="ligne_8cpp" startline="62" endline="65">distanceEntreArrets</references>
+        <references refid="classligne_1a46e5f1af388d0c918333427098898d8b" compoundref="ligne_8cpp" startline="48" endline="51">arrets</references>
+        <references refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" compoundref="ligne_8cpp" startline="55" endline="58">trams</references>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a2ef56d3dcf06db6971c2d44cb73ba8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ligne::ligne</definition>
+        <argsstring>(ligne *ligne_a_Creer)</argsstring>
+        <name>ligne</name>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>ligne_a_Creer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructeur par ligne <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">maligne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ligne à crée </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="13" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="23" bodyend="30"/>
+        <references refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" compoundref="ligne_8cpp" startline="34" endline="37">nomDeLigne</references>
+        <references refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" compoundref="ligne_8cpp" startline="41" endline="44">numDeLigne</references>
+        <references refid="classligne_1a46e5f1af388d0c918333427098898d8b" compoundref="ligne_8cpp" startline="48" endline="51">arrets</references>
+        <references refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" compoundref="ligne_8cpp" startline="55" endline="58">trams</references>
+        <references refid="classligne_1a68736df5931bd7755dc3b5c19950576f" compoundref="ligne_8cpp" startline="62" endline="65">distanceEntreArrets</references>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ligne::nomDeLigne</definition>
+        <argsstring>() const </argsstring>
+        <name>nomDeLigne</name>
+        <briefdescription>
+<para>Methodes Accés </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- retourne le nom de la ligne </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="15" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="34" bodyend="37"/>
+        <referencedby refid="classligne_1a46cce30fd93232136e89005a3a46327a" compoundref="ligne_8cpp" startline="17" endline="18">ligne</referencedby>
+        <referencedby refid="classligne_1a7da92f90eb4c91c1b5446039032c298f" compoundref="ligne_8cpp" startline="69" endline="72">nomDeLigne</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ligne::numDeLigne</definition>
+        <argsstring>() const </argsstring>
+        <name>numDeLigne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- retourne le numero de la ligne </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="16" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="41" bodyend="44"/>
+        <referencedby refid="classligne_1a2ef56d3dcf06db6971c2d44cb73ba8ad" compoundref="ligne_8cpp" startline="23" endline="30">ligne</referencedby>
+        <referencedby refid="classligne_1aa83ea0670f7d31f947dbb5fd678dc847" compoundref="ligne_8cpp" startline="76" endline="79">numDeLigne</referencedby>
+        <referencedby refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" compoundref="tracer_8cpp" startline="40" endline="47">tracer::liensArrets</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a46e5f1af388d0c918333427098898d8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classliste_arrets" kindref="compound">listeArrets</ref> *</type>
+        <definition>listeArrets * ligne::arrets</definition>
+        <argsstring>() const </argsstring>
+        <name>arrets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- return un private d_arrets </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="17" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="48" bodyend="51"/>
+        <referencedby refid="classligne_1a46cce30fd93232136e89005a3a46327a" compoundref="ligne_8cpp" startline="17" endline="18">ligne</referencedby>
+        <referencedby refid="classligne_1a1128030fba3430f9a365f670cbd461dc" compoundref="ligne_8cpp" startline="83" endline="86">arrets</referencedby>
+        <referencedby refid="classtracer_1a9d82959867464033e3b68892023969ce" compoundref="tracer_8cpp" startline="33" endline="39">tracer::placerArrets</referencedby>
+        <referencedby refid="classtracer_1a37ba471b0824655b4a6a2820d6b7ee56" compoundref="tracer_8cpp" startline="40" endline="47">tracer::liensArrets</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref> *</type>
+        <definition>listeDeTrams * ligne::trams</definition>
+        <argsstring>() const </argsstring>
+        <name>trams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- return un private d_trams </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="18" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="55" bodyend="58"/>
+        <referencedby refid="classligne_1a46cce30fd93232136e89005a3a46327a" compoundref="ligne_8cpp" startline="17" endline="18">ligne</referencedby>
+        <referencedby refid="classligne_1a5cde292801e3554a0bffd35ce83c49be" compoundref="ligne_8cpp" startline="90" endline="93">trams</referencedby>
+        <referencedby refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" compoundref="tracer_8cpp" startline="63" endline="67">tracer::placerTrams</referencedby>
+        <referencedby refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" compoundref="tracer_8cpp" startline="139" endline="145">tracer::moveTrams</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a68736df5931bd7755dc3b5c19950576f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ligne::distanceEntreArrets</definition>
+        <argsstring>() const </argsstring>
+        <name>distanceEntreArrets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- return un private d_distanceEntrArrets </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="19" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="62" bodyend="65"/>
+        <referencedby refid="classligne_1a46cce30fd93232136e89005a3a46327a" compoundref="ligne_8cpp" startline="17" endline="18">ligne</referencedby>
+        <referencedby refid="classligne_1ad4157a1b708436c8f07f262f1aa2b3d6" compoundref="ligne_8cpp" startline="97" endline="100">distanceEntreArrets</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a7da92f90eb4c91c1b5446039032c298f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ligne::nomDeLigne</definition>
+        <argsstring>(std::string nomDeLigne)</argsstring>
+        <name>nomDeLigne</name>
+        <param>
+          <type>std::string</type>
+          <declname>nomDeLigne</declname>
+        </param>
+        <briefdescription>
+<para>Methodes de modification. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nomLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- nom de ligne </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="21" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="69" bodyend="72"/>
+        <references refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" compoundref="ligne_8cpp" startline="34" endline="37">nomDeLigne</references>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1aa83ea0670f7d31f947dbb5fd678dc847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ligne::numDeLigne</definition>
+        <argsstring>(int numDeLigne)</argsstring>
+        <name>numDeLigne</name>
+        <param>
+          <type>int</type>
+          <declname>numDeLigne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">numDeLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- numero de ligne </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="22" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="76" bodyend="79"/>
+        <references refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" compoundref="ligne_8cpp" startline="41" endline="44">numDeLigne</references>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a1128030fba3430f9a365f670cbd461dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ligne::arrets</definition>
+        <argsstring>(listeArrets *arrets)</argsstring>
+        <name>arrets</name>
+        <param>
+          <type><ref refid="classliste_arrets" kindref="compound">listeArrets</ref> *</type>
+          <declname>arrets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">arrets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- liste des arrets </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="23" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="83" bodyend="86"/>
+        <references refid="classligne_1a46e5f1af388d0c918333427098898d8b" compoundref="ligne_8cpp" startline="48" endline="51">arrets</references>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1a5cde292801e3554a0bffd35ce83c49be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ligne::trams</definition>
+        <argsstring>(listeDeTrams *trams)</argsstring>
+        <name>trams</name>
+        <param>
+          <type><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref> *</type>
+          <declname>trams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">trams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- liste de trams </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="24" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="90" bodyend="93"/>
+        <references refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" compoundref="ligne_8cpp" startline="55" endline="58">trams</references>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1ad4157a1b708436c8f07f262f1aa2b3d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ligne::distanceEntreArrets</definition>
+        <argsstring>(double distanceEntreArrets)</argsstring>
+        <name>distanceEntreArrets</name>
+        <param>
+          <type>double</type>
+          <declname>distanceEntreArrets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">distanceEntreArrets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- distance entre les arrets </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="25" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="97" bodyend="100"/>
+        <references refid="classligne_1a68736df5931bd7755dc3b5c19950576f" compoundref="ligne_8cpp" startline="62" endline="65">distanceEntreArrets</references>
+      </memberdef>
+      <memberdef kind="function" id="classligne_1ab282119bfd4ad9d32620735056ad3dac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ligne::~ligne</definition>
+        <argsstring>()</argsstring>
+        <name>~ligne</name>
+        <briefdescription>
+<para>Destructeur. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="27" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" line="9" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classligne_1a46e5f1af388d0c918333427098898d8b" prot="public" virt="non-virtual"><scope>ligne</scope><name>arrets</name></member>
+      <member refid="classligne_1a1128030fba3430f9a365f670cbd461dc" prot="public" virt="non-virtual"><scope>ligne</scope><name>arrets</name></member>
+      <member refid="classligne_1a244eb7f1457d2a120d07f770f0ce154c" prot="private" virt="non-virtual"><scope>ligne</scope><name>d_arrets</name></member>
+      <member refid="classligne_1a48cc77767949481e7201cea3c31a48c9" prot="private" virt="non-virtual"><scope>ligne</scope><name>d_distanceEntreArrets</name></member>
+      <member refid="classligne_1abed2ef4da0bc3bad68563c68c0117f22" prot="private" virt="non-virtual"><scope>ligne</scope><name>d_nomDeLigne</name></member>
+      <member refid="classligne_1a67b542a7b057cdf31c964981b6dbf604" prot="private" virt="non-virtual"><scope>ligne</scope><name>d_numDeLigne</name></member>
+      <member refid="classligne_1a40fdf732bdfb8ea2da099b7a32ed6ba6" prot="private" virt="non-virtual"><scope>ligne</scope><name>d_trams</name></member>
+      <member refid="classligne_1a68736df5931bd7755dc3b5c19950576f" prot="public" virt="non-virtual"><scope>ligne</scope><name>distanceEntreArrets</name></member>
+      <member refid="classligne_1ad4157a1b708436c8f07f262f1aa2b3d6" prot="public" virt="non-virtual"><scope>ligne</scope><name>distanceEntreArrets</name></member>
+      <member refid="classligne_1ab9ab2dab09a1d5335f0f33911a5f0fdf" prot="public" virt="non-virtual"><scope>ligne</scope><name>ligne</name></member>
+      <member refid="classligne_1a46cce30fd93232136e89005a3a46327a" prot="public" virt="non-virtual"><scope>ligne</scope><name>ligne</name></member>
+      <member refid="classligne_1a2ef56d3dcf06db6971c2d44cb73ba8ad" prot="public" virt="non-virtual"><scope>ligne</scope><name>ligne</name></member>
+      <member refid="classligne_1adef9f7b87df4ee2a16becd9ca1cd81b0" prot="public" virt="non-virtual"><scope>ligne</scope><name>nomDeLigne</name></member>
+      <member refid="classligne_1a7da92f90eb4c91c1b5446039032c298f" prot="public" virt="non-virtual"><scope>ligne</scope><name>nomDeLigne</name></member>
+      <member refid="classligne_1abc5c8d7ccfe9aedc12ccd58d8d5f2cb4" prot="public" virt="non-virtual"><scope>ligne</scope><name>numDeLigne</name></member>
+      <member refid="classligne_1aa83ea0670f7d31f947dbb5fd678dc847" prot="public" virt="non-virtual"><scope>ligne</scope><name>numDeLigne</name></member>
+      <member refid="classligne_1a5f373b366977d04b0e2eaf8bf32c6036" prot="public" virt="non-virtual"><scope>ligne</scope><name>trams</name></member>
+      <member refid="classligne_1a5cde292801e3554a0bffd35ce83c49be" prot="public" virt="non-virtual"><scope>ligne</scope><name>trams</name></member>
+      <member refid="classligne_1ab282119bfd4ad9d32620735056ad3dac" prot="public" virt="non-virtual"><scope>ligne</scope><name>~ligne</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

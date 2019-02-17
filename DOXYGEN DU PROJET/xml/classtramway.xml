@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classtramway" kind="class" language="C++" prot="public">
+    <compoundname>tramway</compoundname>
+    <includes refid="liste_de_tramway_8h" local="no">listeDeTramway.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classtramway_1a769de17fc42804fb0d2a6751abb27e2f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class listeDeTrams</definition>
+        <argsstring></argsstring>
+        <name>listeDeTrams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="10" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tramway::numLigne</definition>
+        <argsstring></argsstring>
+        <name>numLigne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="15" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classliste_de_trams_1ab1d9638e4f071077f5182413ae8b1c8c" compoundref="liste_de_tramway_8cpp" startline="62" endline="78">listeDeTrams::afficherListe</referencedby>
+        <referencedby refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" compoundref="tracer_8cpp" startline="48" endline="62">tracer::placerTram</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tramway::vitesseMax</definition>
+        <argsstring></argsstring>
+        <name>vitesseMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="16" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tramway::sens</definition>
+        <argsstring></argsstring>
+        <name>sens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="19" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" compoundref="liste_de_tramway_8cpp" startline="23" endline="51">respectDistanceDeSecurite</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double tramway::posX</definition>
+        <argsstring></argsstring>
+        <name>posX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="20" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" compoundref="liste_de_tramway_8cpp" startline="23" endline="51">respectDistanceDeSecurite</referencedby>
+        <referencedby refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" compoundref="tracer_8cpp" startline="48" endline="62">tracer::placerTram</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double tramway::posY</definition>
+        <argsstring></argsstring>
+        <name>posY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="21" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" compoundref="liste_de_tramway_8cpp" startline="23" endline="51">respectDistanceDeSecurite</referencedby>
+        <referencedby refid="classtracer_1a747a35b63db6765185c0de6f652f8c13" compoundref="tracer_8cpp" startline="48" endline="62">tracer::placerTram</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a0506569903981a08b8835a73fc49609b" prot="public" static="no" mutable="no">
+        <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+        <definition>ligne* tramway::ligneAffect</definition>
+        <argsstring></argsstring>
+        <name>ligneAffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="23" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" prot="public" static="no" mutable="no">
+        <type><ref refid="classtramway" kindref="compound">tramway</ref> *</type>
+        <definition>tramway* tramway::suivant</definition>
+        <argsstring></argsstring>
+        <name>suivant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="24" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" compoundref="liste_de_tramway_8cpp" startline="23" endline="51">respectDistanceDeSecurite</referencedby>
+        <referencedby refid="classliste_de_trams_1ab1d9638e4f071077f5182413ae8b1c8c" compoundref="liste_de_tramway_8cpp" startline="62" endline="78">listeDeTrams::afficherListe</referencedby>
+        <referencedby refid="classliste_de_trams_1acc9f9a3e125a1801cfe108a4a9b27cfc" compoundref="liste_de_tramway_8cpp" startline="88" endline="97">listeDeTrams::ajoutEnTete</referencedby>
+        <referencedby refid="classliste_de_trams_1af969635f70bda1d3b429a1220e649d7c" compoundref="liste_de_tramway_8cpp" startline="106" endline="125">listeDeTrams::ajoutAuQueue</referencedby>
+        <referencedby refid="classliste_de_trams_1aae576aa98d9709644fee9dda66ea54f7" compoundref="liste_de_tramway_8cpp" startline="135" endline="154">listeDeTrams::ajoutAuCorps</referencedby>
+        <referencedby refid="classliste_de_trams_1a495cc9d541621a18e3c10817e62d31bd" compoundref="liste_de_tramway_8cpp" startline="159" endline="170">listeDeTrams::supprEnTete</referencedby>
+        <referencedby refid="classliste_de_trams_1aea83e66431a0a5ff31a631a04f3284cc" compoundref="liste_de_tramway_8cpp" startline="174" endline="193">listeDeTrams::supprAuQueue</referencedby>
+        <referencedby refid="classliste_de_trams_1a718310361597fbe63375c37f3028defa" compoundref="liste_de_tramway_8cpp" startline="197" endline="215">listeDeTrams::supprAuCorps</referencedby>
+        <referencedby refid="classliste_de_trams_1a442cc0dc48c4d8abfd3e8de30a85e24c" compoundref="liste_de_tramway_8cpp" startline="230" endline="246">listeDeTrams::accesAuQueue</referencedby>
+        <referencedby refid="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" compoundref="liste_de_tramway_8cpp" startline="250" endline="277">listeDeTrams::accesAuCorps</referencedby>
+        <referencedby refid="classliste_de_trams_1ac4f850a2d93ad983b485cfa83fdcb57d" compoundref="liste_de_tramway_8cpp" startline="293" endline="302">listeDeTrams::~listeDeTrams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" prot="public" static="no" mutable="no">
+        <type><ref refid="classarret" kindref="compound">arret</ref> *</type>
+        <definition>arret* tramway::arretActuel</definition>
+        <argsstring></argsstring>
+        <name>arretActuel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="25" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a59e30ad7e6df61e54fe2b326bd9e6134" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tramway::distanceSecurite</definition>
+        <argsstring></argsstring>
+        <name>distanceSecurite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="26" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" compoundref="liste_de_tramway_8cpp" startline="23" endline="51">respectDistanceDeSecurite</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a85b44399cbbf04ec765d114465a4aa1f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tramway::distanceArret</definition>
+        <argsstring></argsstring>
+        <name>distanceArret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="27" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1a5eab187ab73b4b91a158dc05fd8ed066" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tramway::vitesseActuelle</definition>
+        <argsstring></argsstring>
+        <name>vitesseActuelle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="28" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtramway_1acfb0a0666823107c15ac26f074a67d79" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tramway::terminus</definition>
+        <argsstring></argsstring>
+        <name>terminus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="29" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" compoundref="liste_de_tramway_8cpp" startline="14" endline="17">tramway</referencedby>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tramway::tramway</definition>
+        <argsstring>(int numLigne, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect)</argsstring>
+        <name>tramway</name>
+        <param>
+          <type>int</type>
+          <declname>numLigne</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vitesseMax</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sens</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>ligneAffect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructeur tramway <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">numLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">vitesseMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ligneAffect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="12" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="14" bodyend="17"/>
+        <references refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" compoundref="liste_de_tramway_8h" startline="16">vitesseMax</references>
+        <references refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" compoundref="liste_de_tramway_8h" startline="19">sens</references>
+        <references refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" compoundref="liste_de_tramway_8h" startline="20">posX</references>
+        <references refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" compoundref="liste_de_tramway_8h" startline="21">posY</references>
+        <references refid="classtramway_1a0506569903981a08b8835a73fc49609b" compoundref="liste_de_tramway_8h" startline="23">ligneAffect</references>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">suivant</references>
+        <references refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" compoundref="liste_de_tramway_8h" startline="29">terminus</references>
+        <references refid="classtramway_1a59e30ad7e6df61e54fe2b326bd9e6134" compoundref="liste_de_tramway_8h" startline="26">distanceSecurite</references>
+      </memberdef>
+      <memberdef kind="function" id="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tramway::respectDistanceDeSecurite</definition>
+        <argsstring>()</argsstring>
+        <name>respectDistanceDeSecurite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- si la distance est respectee </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="14" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="23" bodyend="51"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">suivant</references>
+        <references refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" compoundref="liste_de_tramway_8h" startline="19">sens</references>
+        <references refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" compoundref="liste_de_tramway_8h" startline="20">posX</references>
+        <references refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" compoundref="liste_de_tramway_8h" startline="21">posY</references>
+        <references refid="classtramway_1a59e30ad7e6df61e54fe2b326bd9e6134" compoundref="liste_de_tramway_8h" startline="26">distanceSecurite</references>
+        <referencedby refid="classtracer_1a59f9f4e714b1ebcf114ae7ca648e7d8c" compoundref="tracer_8cpp" startline="75" endline="137">tracer::moveTram</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="29">
+        <label>tramway</label>
+        <link refid="classtramway"/>
+        <childnode refid="30" relation="usage">
+          <edgelabel>arretActuel</edgelabel>
+        </childnode>
+        <childnode refid="31" relation="usage">
+          <edgelabel>ligneAffect</edgelabel>
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>suivant</edgelabel>
+        </childnode>
+      </node>
+      <node id="30">
+        <label>arret</label>
+        <link refid="classarret"/>
+        <childnode refid="30" relation="usage">
+          <edgelabel>prochainArret</edgelabel>
+        </childnode>
+      </node>
+      <node id="31">
+        <label>ligne</label>
+        <link refid="classligne"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="9" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" prot="public" virt="non-virtual"><scope>tramway</scope><name>arretActuel</name></member>
+      <member refid="classtramway_1a85b44399cbbf04ec765d114465a4aa1f" prot="public" virt="non-virtual"><scope>tramway</scope><name>distanceArret</name></member>
+      <member refid="classtramway_1a59e30ad7e6df61e54fe2b326bd9e6134" prot="public" virt="non-virtual"><scope>tramway</scope><name>distanceSecurite</name></member>
+      <member refid="classtramway_1a0506569903981a08b8835a73fc49609b" prot="public" virt="non-virtual"><scope>tramway</scope><name>ligneAffect</name></member>
+      <member refid="classtramway_1a769de17fc42804fb0d2a6751abb27e2f" prot="private" virt="non-virtual"><scope>tramway</scope><name>listeDeTrams</name></member>
+      <member refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" prot="public" virt="non-virtual"><scope>tramway</scope><name>numLigne</name></member>
+      <member refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" prot="public" virt="non-virtual"><scope>tramway</scope><name>posX</name></member>
+      <member refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" prot="public" virt="non-virtual"><scope>tramway</scope><name>posY</name></member>
+      <member refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" prot="public" virt="non-virtual"><scope>tramway</scope><name>respectDistanceDeSecurite</name></member>
+      <member refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" prot="public" virt="non-virtual"><scope>tramway</scope><name>sens</name></member>
+      <member refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" prot="public" virt="non-virtual"><scope>tramway</scope><name>suivant</name></member>
+      <member refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" prot="public" virt="non-virtual"><scope>tramway</scope><name>terminus</name></member>
+      <member refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" prot="public" virt="non-virtual"><scope>tramway</scope><name>tramway</name></member>
+      <member refid="classtramway_1a5eab187ab73b4b91a158dc05fd8ed066" prot="public" virt="non-virtual"><scope>tramway</scope><name>vitesseActuelle</name></member>
+      <member refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" prot="public" virt="non-virtual"><scope>tramway</scope><name>vitesseMax</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

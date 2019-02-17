@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1520941904 source:c:\users\oumar12\desktop\tramways\tramways\ligne.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"ligne.h"
+
+1521296429 c:\users\oumar12\desktop\tramways\tramways\ligne.h
+	<string>
+	"listeArrets.h"
+
+1521296436 c:\users\oumar12\desktop\tramways\tramways\listearrets.h
+	<string>
+
+1521154837 source:c:\users\oumar12\desktop\tramways\tramways\listearrets.cpp
+	<iostream>
+	<fstream>
+	"listeArrets.h"
+
+1521297660 source:c:\users\oumar12\desktop\tramways\tramways\listedetramway.cpp
+	<iostream>
+	"listeDeTramway.h"
+	<cmath>
+
+1521297480 c:\users\oumar12\desktop\tramways\tramways\listedetramway.h
+	"ligne.h"
+
+1521135051 source:c:\users\oumar12\desktop\tramways\tramways\tracer.cpp
+	"graphics.h"
+	<iostream>
+	<ctime>
+	<tchar.h>
+	<math.h>
+	"tracer.h"
+	<windows.h>
+
+1521296219 c:\users\oumar12\desktop\tramways\tramways\tracer.h
+	<iostream>
+	<vector>
+	"listeArrets.h"
+	"ligne.h"
+	"listeDeTramway.h"
+
+1521133677 source:c:\users\oumar12\desktop\tramways\tramways\lecturexml.cpp
+	"listeDeTramway.h"
+	"listeArrets.h"
+	"ligne.h"
+	"lectureXML.h"
+	"tracer.h"
+
+1521130356 c:\users\oumar12\desktop\tramways\tramways\lecturexml.h
+	<iostream>
+	<fstream>
+	"XML/tinyxml.h"
+	"XML/tinystr.h"
+	<stdio.h>
+	<tchar.h>
+	<string.h>
+	<iostream>
+	<ctime>
+	<windows.h>
+	<math.h>
+	<vector>
+
+1305426298 c:\users\oumar12\desktop\tramways\tramways\xml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426298 c:\users\oumar12\desktop\tramways\tramways\xml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1521297786 source:c:\users\oumar12\desktop\tramways\tramways\main.cpp
+	<iostream>
+	"listeDeTramway.h"
+	"listeArrets.h"
+	"ligne.h"
+	"tracer.h"
+	"lectureXML.h"
+	<windows.h>
+	"graphics.h"
+
+1305426298 source:c:\users\oumar12\desktop\tramways\tramways\xml\tinystr.cpp
+	"tinystr.h"
+
+1305426298 source:c:\users\oumar12\desktop\tramways\tramways\xml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426298 source:c:\users\oumar12\desktop\tramways\tramways\xml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426298 source:c:\users\oumar12\desktop\tramways\tramways\xml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+

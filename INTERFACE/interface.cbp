@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="interface" />
+		<Option pch_mode="2" />
+		<Option compiler="tdm_gcc_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/interface" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="tdm_gcc_compiler" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:\Users\Public\wxMSW-3.0.3\lib\gcc510TDM_x64_dll\mswu" />
+					<Add directory="C:\Users\Public\wxMSW-3.0.3\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lkernel32 -luser32 -lgdi32 -lcomdlg32" />
+					<Add option="-lwinspool -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32" />
+					<Add option="-lwxmsw30u_core -lwxbase30u" />
+					<Add option="-mwindows" />
+					<Add directory="C:\Users\Public\wxMSW-3.0.3\lib\gcc510TDM_x64_dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/interface" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="tdm_gcc_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/Public/wxMSW-3.0.3/lib/gcc510TDM_x64_dll/mswu" />
+			<Add directory="C:/Users/Public/wxMSW-3.0.3/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lkernel32 -luser32 -lgdi32 -lcomdlg32" />
+			<Add option="-lwinspool -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32" />
+			<Add option="-lwxmsw30u_core -lwxbase30u" />
+			<Add option="-mwindows" />
+			<Add directory="C:/Users/Public/wxMSW-3.0.3/lib/gcc510TDM_x64_dll" />
+		</Linker>
+		<Unit filename="tramFrame.cpp" />
+		<Unit filename="tramFrame.h" />
+		<Unit filename="tramApplic.cpp" />
+		<Unit filename="tramApplic.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

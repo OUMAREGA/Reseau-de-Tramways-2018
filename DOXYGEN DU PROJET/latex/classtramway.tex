@@ -1,0 +1,161 @@
+\hypertarget{classtramway}{}\section{tramway Class Reference}
+\label{classtramway}\index{tramway@{tramway}}
+
+
+{\ttfamily \#include $<$liste\+De\+Tramway.\+h$>$}
+
+
+
+Collaboration diagram for tramway\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{classtramway__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classtramway_a3f1e91b979ea3309cd93208439fb5a10}{tramway} (int \hyperlink{classtramway_a937d549fcbdbe222ea08e4ec085bb19b}{num\+Ligne}, int \hyperlink{classtramway_a401f568b9c8cedcf0c359eb68ea8865d}{vitesse\+Max}, bool \hyperlink{classtramway_abc99be632a1ef40a7eae8bb46ac364f6}{sens}, double \hyperlink{classtramway_a0ba5b158240fe160ee8b91c74b4010f5}{posX}, double \hyperlink{classtramway_afb1214281e7e1b2c9a9fd9a5d322e836}{posY}, \hyperlink{classligne}{ligne} $\ast$\hyperlink{classtramway_a0506569903981a08b8835a73fc49609b}{ligne\+Affect})
+\item 
+bool \hyperlink{classtramway_ac11a2d8761217b5db1253cc35ea67a66}{respect\+Distance\+De\+Securite} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classtramway_a937d549fcbdbe222ea08e4ec085bb19b}{num\+Ligne}
+\item 
+int \hyperlink{classtramway_a401f568b9c8cedcf0c359eb68ea8865d}{vitesse\+Max}
+\item 
+bool \hyperlink{classtramway_abc99be632a1ef40a7eae8bb46ac364f6}{sens}
+\item 
+double \hyperlink{classtramway_a0ba5b158240fe160ee8b91c74b4010f5}{posX}
+\item 
+double \hyperlink{classtramway_afb1214281e7e1b2c9a9fd9a5d322e836}{posY}
+\item 
+\hyperlink{classligne}{ligne} $\ast$ \hyperlink{classtramway_a0506569903981a08b8835a73fc49609b}{ligne\+Affect}
+\item 
+\hyperlink{classtramway}{tramway} $\ast$ \hyperlink{classtramway_a1ed327c50d74d61632664f0f460c6cf2}{suivant}
+\item 
+\hyperlink{classarret}{arret} $\ast$ \hyperlink{classtramway_a316032ab458b4ccf96b3f3f1bf327ee2}{arret\+Actuel}
+\item 
+int \hyperlink{classtramway_a59e30ad7e6df61e54fe2b326bd9e6134}{distance\+Securite}
+\item 
+int \hyperlink{classtramway_a85b44399cbbf04ec765d114465a4aa1f}{distance\+Arret}
+\item 
+int \hyperlink{classtramway_a5eab187ab73b4b91a158dc05fd8ed066}{vitesse\+Actuelle}
+\item 
+bool \hyperlink{classtramway_acfb0a0666823107c15ac26f074a67d79}{terminus}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classtramway_a769de17fc42804fb0d2a6751abb27e2f}{liste\+De\+Trams}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{tramway@{tramway}!tramway@{tramway}}
+\index{tramway@{tramway}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{tramway(int num\+Ligne, int vitesse\+Max, bool sens, double pos\+X, double pos\+Y, ligne $\ast$ligne\+Affect)}{tramway(int numLigne, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect)}}]{\setlength{\rightskip}{0pt plus 5cm}tramway\+::tramway (
+\begin{DoxyParamCaption}
+\item[{int}]{num\+Ligne, }
+\item[{int}]{vitesse\+Max, }
+\item[{bool}]{sens, }
+\item[{double}]{posX, }
+\item[{double}]{posY, }
+\item[{{\bf ligne} $\ast$}]{ligne\+Affect}
+\end{DoxyParamCaption}
+)}\hypertarget{classtramway_a3f1e91b979ea3309cd93208439fb5a10}{}\label{classtramway_a3f1e91b979ea3309cd93208439fb5a10}
+Constructeur tramway 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em num\+Ligne} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em vitesse\+Max} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em sens} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posX} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posY} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em ligne\+Affect} & -\/ \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{tramway@{tramway}!respect\+Distance\+De\+Securite@{respect\+Distance\+De\+Securite}}
+\index{respect\+Distance\+De\+Securite@{respect\+Distance\+De\+Securite}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{respect\+Distance\+De\+Securite()}{respectDistanceDeSecurite()}}]{\setlength{\rightskip}{0pt plus 5cm}bool tramway\+::respect\+Distance\+De\+Securite (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classtramway_ac11a2d8761217b5db1253cc35ea67a66}{}\label{classtramway_ac11a2d8761217b5db1253cc35ea67a66}
+\begin{DoxyReturn}{Returns}
+-\/ si la distance est respectee 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{classtramway_ac11a2d8761217b5db1253cc35ea67a66_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Friends And Related Function Documentation}
+\index{tramway@{tramway}!liste\+De\+Trams@{liste\+De\+Trams}}
+\index{liste\+De\+Trams@{liste\+De\+Trams}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{liste\+De\+Trams}{listeDeTrams}}]{\setlength{\rightskip}{0pt plus 5cm}friend class {\bf liste\+De\+Trams}\hspace{0.3cm}{\ttfamily [friend]}}\hypertarget{classtramway_a769de17fc42804fb0d2a6751abb27e2f}{}\label{classtramway_a769de17fc42804fb0d2a6751abb27e2f}
+
+
+\subsection{Member Data Documentation}
+\index{tramway@{tramway}!arret\+Actuel@{arret\+Actuel}}
+\index{arret\+Actuel@{arret\+Actuel}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{arret\+Actuel}{arretActuel}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf arret}$\ast$ tramway\+::arret\+Actuel}\hypertarget{classtramway_a316032ab458b4ccf96b3f3f1bf327ee2}{}\label{classtramway_a316032ab458b4ccf96b3f3f1bf327ee2}
+\index{tramway@{tramway}!distance\+Arret@{distance\+Arret}}
+\index{distance\+Arret@{distance\+Arret}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{distance\+Arret}{distanceArret}}]{\setlength{\rightskip}{0pt plus 5cm}int tramway\+::distance\+Arret}\hypertarget{classtramway_a85b44399cbbf04ec765d114465a4aa1f}{}\label{classtramway_a85b44399cbbf04ec765d114465a4aa1f}
+\index{tramway@{tramway}!distance\+Securite@{distance\+Securite}}
+\index{distance\+Securite@{distance\+Securite}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{distance\+Securite}{distanceSecurite}}]{\setlength{\rightskip}{0pt plus 5cm}int tramway\+::distance\+Securite}\hypertarget{classtramway_a59e30ad7e6df61e54fe2b326bd9e6134}{}\label{classtramway_a59e30ad7e6df61e54fe2b326bd9e6134}
+\index{tramway@{tramway}!ligne\+Affect@{ligne\+Affect}}
+\index{ligne\+Affect@{ligne\+Affect}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{ligne\+Affect}{ligneAffect}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ligne}$\ast$ tramway\+::ligne\+Affect}\hypertarget{classtramway_a0506569903981a08b8835a73fc49609b}{}\label{classtramway_a0506569903981a08b8835a73fc49609b}
+\index{tramway@{tramway}!num\+Ligne@{num\+Ligne}}
+\index{num\+Ligne@{num\+Ligne}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{num\+Ligne}{numLigne}}]{\setlength{\rightskip}{0pt plus 5cm}int tramway\+::num\+Ligne}\hypertarget{classtramway_a937d549fcbdbe222ea08e4ec085bb19b}{}\label{classtramway_a937d549fcbdbe222ea08e4ec085bb19b}
+\index{tramway@{tramway}!posX@{posX}}
+\index{posX@{posX}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{posX}{posX}}]{\setlength{\rightskip}{0pt plus 5cm}double tramway\+::posX}\hypertarget{classtramway_a0ba5b158240fe160ee8b91c74b4010f5}{}\label{classtramway_a0ba5b158240fe160ee8b91c74b4010f5}
+\index{tramway@{tramway}!posY@{posY}}
+\index{posY@{posY}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{posY}{posY}}]{\setlength{\rightskip}{0pt plus 5cm}double tramway\+::posY}\hypertarget{classtramway_afb1214281e7e1b2c9a9fd9a5d322e836}{}\label{classtramway_afb1214281e7e1b2c9a9fd9a5d322e836}
+\index{tramway@{tramway}!sens@{sens}}
+\index{sens@{sens}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{sens}{sens}}]{\setlength{\rightskip}{0pt plus 5cm}bool tramway\+::sens}\hypertarget{classtramway_abc99be632a1ef40a7eae8bb46ac364f6}{}\label{classtramway_abc99be632a1ef40a7eae8bb46ac364f6}
+\index{tramway@{tramway}!suivant@{suivant}}
+\index{suivant@{suivant}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{suivant}{suivant}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tramway}$\ast$ tramway\+::suivant}\hypertarget{classtramway_a1ed327c50d74d61632664f0f460c6cf2}{}\label{classtramway_a1ed327c50d74d61632664f0f460c6cf2}
+\index{tramway@{tramway}!terminus@{terminus}}
+\index{terminus@{terminus}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{terminus}{terminus}}]{\setlength{\rightskip}{0pt plus 5cm}bool tramway\+::terminus}\hypertarget{classtramway_acfb0a0666823107c15ac26f074a67d79}{}\label{classtramway_acfb0a0666823107c15ac26f074a67d79}
+\index{tramway@{tramway}!vitesse\+Actuelle@{vitesse\+Actuelle}}
+\index{vitesse\+Actuelle@{vitesse\+Actuelle}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{vitesse\+Actuelle}{vitesseActuelle}}]{\setlength{\rightskip}{0pt plus 5cm}int tramway\+::vitesse\+Actuelle}\hypertarget{classtramway_a5eab187ab73b4b91a158dc05fd8ed066}{}\label{classtramway_a5eab187ab73b4b91a158dc05fd8ed066}
+\index{tramway@{tramway}!vitesse\+Max@{vitesse\+Max}}
+\index{vitesse\+Max@{vitesse\+Max}!tramway@{tramway}}
+\subsubsection[{\texorpdfstring{vitesse\+Max}{vitesseMax}}]{\setlength{\rightskip}{0pt plus 5cm}int tramway\+::vitesse\+Max}\hypertarget{classtramway_a401f568b9c8cedcf0c359eb68ea8865d}{}\label{classtramway_a401f568b9c8cedcf0c359eb68ea8865d}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{liste_de_tramway_8h}{liste\+De\+Tramway.\+h}\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{liste_de_tramway_8cpp}{liste\+De\+Tramway.\+cpp}\end{DoxyCompactItemize}

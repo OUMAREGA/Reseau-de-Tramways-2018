@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="lecture_x_m_l_8cpp" kind="file" language="C++">
+    <compoundname>lectureXML.cpp</compoundname>
+    <includes refid="liste_de_tramway_8h" local="yes">listeDeTramway.h</includes>
+    <includes refid="liste_arrets_8h" local="yes">listeArrets.h</includes>
+    <includes refid="ligne_8h" local="yes">ligne.h</includes>
+    <includes refid="lecture_x_m_l_8h" local="yes">lectureXML.h</includes>
+    <includes local="no">ctype.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/XML/tinystr.h</includes>
+    <includes refid="tracer_8h" local="yes">tracer.h</includes>
+    <incdepgraph>
+      <node id="145">
+        <label>XML/tinyxml.h</label>
+      </node>
+      <node id="139">
+        <label>ligne.h</label>
+        <link refid="ligne_8h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>windows.h</label>
+      </node>
+      <node id="156">
+        <label>assert.h</label>
+      </node>
+      <node id="155">
+        <label>stdlib.h</label>
+      </node>
+      <node id="140">
+        <label>string</label>
+      </node>
+      <node id="158">
+        <label>tracer.h</label>
+        <link refid="tracer_8h"/>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>fstream</label>
+      </node>
+      <node id="141">
+        <label>listeArrets.h</label>
+        <link refid="liste_arrets_8h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>lectureXML.h</label>
+        <link refid="lecture_x_m_l_8h"/>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>string.h</label>
+      </node>
+      <node id="150">
+        <label>ctime</label>
+      </node>
+      <node id="157">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/XML/tinystr.h</label>
+      </node>
+      <node id="153">
+        <label>vector</label>
+      </node>
+      <node id="137">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</label>
+        <link refid="lectureXML.cpp"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>math.h</label>
+      </node>
+      <node id="143">
+        <label>iostream</label>
+      </node>
+      <node id="154">
+        <label>ctype.h</label>
+      </node>
+      <node id="148">
+        <label>tchar.h</label>
+      </node>
+      <node id="138">
+        <label>listeDeTramway.h</label>
+        <link refid="liste_de_tramway_8h"/>
+        <childnode refid="139" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>XML/tinystr.h</label>
+      </node>
+      <node id="147">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="liste_de_tramway_8h" kindref="compound">listeDeTramway.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="liste_arrets_8h" kindref="compound">listeArrets.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ligne_8h" kindref="compound">ligne.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="lecture_x_m_l_8h" kindref="compound">lectureXML.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tracer_8h" kindref="compound">tracer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="13" refid="classlecture_x_m_l_1a1143069c6b2231c9a3d46411e29f1ca0" refkind="member"><highlight class="normal"><ref refid="classlecture_x_m_l_1a1143069c6b2231c9a3d46411e29f1ca0" kindref="member">lectureXML::lectureXML</ref>(std::string<sp/>nomFichier,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>temps)<sp/>:<sp/>d_nomFichier(nomFichier)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>TiXmlDocument<sp/>monDoc(nomFichier.c_str());</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>loadOkay<sp/>=<sp/>monDoc.LoadFile();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!loadOkay)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Impossible<sp/>de<sp/>ouvrir<sp/>le<sp/>fichier<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>nomFichier.c_str()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Ouverture<sp/>du<sp/>fichier<sp/>XML<sp/>reussi.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Je<sp/>recupere<sp/>la<sp/>racine<sp/>du<sp/>document</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>racine<sp/>=<sp/>monDoc.FirstChildElement(</highlight><highlight class="stringliteral">&quot;TramWay&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>--------------<sp/>GESTION<sp/>DES<sp/>LISTE<sp/>DARRETS<sp/>--------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>de<sp/>la<sp/>liste<sp/>des<sp/>arrets..............</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Je<sp/>recupere<sp/>les<sp/>listes<sp/>des<sp/>arrets<sp/>puis<sp/>la<sp/>premiere<sp/>liste<sp/>de<sp/>cette<sp/>meme<sp/>liste</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>listArrets<sp/>=<sp/>racine-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;listArrets&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>listArret<sp/>=<sp/>listArrets-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;nbListArret&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbListArret<sp/>=<sp/>atoi(listArret-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;nombre&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;listeArrets*&gt;<sp/>mesArret(nbListArret);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Creation<sp/>des<sp/>liste<sp/>d&apos;arrets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>mesArret.size();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>x<sp/>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesArret[i]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classliste_arrets" kindref="compound">listeArrets</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Liste<sp/>arret<sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>--------------<sp/>GESTION<sp/>DES<sp/>ARRETS<sp/>--------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>des<sp/>arrets..............</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Je<sp/>recupere<sp/>les<sp/>arrets<sp/>puis<sp/>le<sp/>premier<sp/>arret<sp/>de<sp/>ces<sp/>arrets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>arrets<sp/>=<sp/>racine-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;arrets&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>=<sp/>arrets-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;arret&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Tant<sp/>que<sp/>le<sp/>programme<sp/>n&apos;a<sp/>pas<sp/>fini<sp/>de<sp/>parcourrir<sp/>les<sp/>arrets,<sp/>je<sp/>recupere<sp/>chaque<sp/>arret<sp/>a<sp/>créer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(arret)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Création<sp/>des<sp/>des<sp/>arrets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesArret[atoi(arret-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexlistArretAffect&quot;</highlight><highlight class="normal">))]-&gt;ajoutAuQueue(atoi(arret-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;posX&quot;</highlight><highlight class="normal">)),<sp/>atoi(arret-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;posY&quot;</highlight><highlight class="normal">)),<sp/>atoi(arret-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;dureeStop&quot;</highlight><highlight class="normal">)),<sp/>arret-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;nom&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arret<sp/>=<sp/>arret-&gt;NextSiblingElement(</highlight><highlight class="stringliteral">&quot;arret&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;arret<sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>--------------<sp/>GESTION<sp/>DES<sp/>LIST<sp/>DE<sp/>TRAM<sp/>--------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>de<sp/>la<sp/>liste<sp/>des<sp/>trams..............</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Je<sp/>recupere<sp/>les<sp/>listes<sp/>des<sp/>trams<sp/>puis<sp/>la<sp/>premiere<sp/>liste<sp/>de<sp/>cette<sp/>meme<sp/>liste</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>listTrams<sp/>=<sp/>racine-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;listTrams&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>listTram<sp/>=<sp/>listTrams-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;nbListTram&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>du<sp/>nombre<sp/>de<sp/>tram<sp/>a<sp/>créer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbListTram<sp/>=<sp/>atoi(listTram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;nombre&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;listeDeTrams*&gt;<sp/>mesTram(nbListTram);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Creation<sp/>des<sp/>liste<sp/>des<sp/>trams</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y=mesTram.size();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;y;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesTram[i]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Liste<sp/>tram<sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>--------------<sp/>GESTION<sp/>DES<sp/>LIGNES<sp/>--------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>de<sp/>la<sp/>liste<sp/>des<sp/>lignes..............</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Je<sp/>recupere<sp/>les<sp/>listes<sp/>des<sp/>lignes<sp/>puis<sp/>la<sp/>premiere<sp/>liste<sp/>de<sp/>cette<sp/>meme<sp/>liste</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>lignes<sp/>=<sp/>racine-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;lignes&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>maLigne<sp/>=<sp/>lignes-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;ligne&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>nombreLigne<sp/>=<sp/>lignes-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;nbLigne&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>du<sp/>nombre<sp/>de<sp/>ligne<sp/>a<sp/>créer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbLigne<sp/>=<sp/>atoi(nombreLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;nombre&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;ligne*&gt;<sp/>mesLigne(nbLigne);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>z=mesLigne.size();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;z;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesLigne[i]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classligne" kindref="compound">ligne</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(maLigne)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Création<sp/>des<sp/>des<sp/>arrets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesLigne[atoi(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">))]-&gt;numDeLigne(atoi(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesLigne[atoi(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">))]-&gt;nomDeLigne(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;nomLigne&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesLigne[atoi(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">))]-&gt;arrets(mesArret[atoi(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexlistArret&quot;</highlight><highlight class="normal">))]);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesLigne[atoi(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">))]-&gt;trams(mesTram[atoi(maLigne-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexListTram&quot;</highlight><highlight class="normal">))]);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maLigne<sp/>=<sp/>maLigne-&gt;NextSiblingElement(</highlight><highlight class="stringliteral">&quot;ligne&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;ligne<sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>--------------<sp/>GESTION<sp/>DES<sp/>TRAM<sp/>--------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>des<sp/>trams..............</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Je<sp/>recupere<sp/>les<sp/>trams<sp/>puis<sp/>le<sp/>premier<sp/>arret<sp/>de<sp/>ces<sp/>tram</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>trams<sp/>=<sp/>racine-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;trams&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>tram<sp/>=<sp/>trams-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;tram&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(tram)<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Création<sp/>des<sp/>trams</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesTram[atoi(tram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexlistTramAffect&quot;</highlight><highlight class="normal">))]-&gt;ajoutAuQueue(atoi(tram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;numero&quot;</highlight><highlight class="normal">)),<sp/>atoi(tram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;vitesseMax&quot;</highlight><highlight class="normal">)),<sp/>atoi(tram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;senseDep&quot;</highlight><highlight class="normal">)),<sp/>atoi(tram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;posX&quot;</highlight><highlight class="normal">)),<sp/>atoi(tram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;posY&quot;</highlight><highlight class="normal">)),<sp/>mesLigne[atoi(tram-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexLigneAffect&quot;</highlight><highlight class="normal">))]);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tram<sp/>=<sp/>tram-&gt;NextSiblingElement(</highlight><highlight class="stringliteral">&quot;tram&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Tram<sp/><sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>--------------<sp/>GESTION<sp/>DES<sp/>ARRETS<sp/>DE<sp/>DEPART<sp/>--------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Recupération<sp/>des<sp/>arret<sp/>de<sp/>depart<sp/>des<sp/>trams..............</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Je<sp/>recupere<sp/>les<sp/>trams<sp/>puis<sp/>le<sp/>premier<sp/>arret<sp/>de<sp/>ces<sp/>tram</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>arretDeparts<sp/>=<sp/>racine-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;arretDeparts&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>arretDepart<sp/>=<sp/>arretDeparts-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;arretDepart&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(arretDepart)<sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//définition<sp/>des<sp/>arret<sp/>de<sp/>depart<sp/>des<sp/>trams</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesTram[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexListTram&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexTram&quot;</highlight><highlight class="normal">)))-&gt;arretActuel<sp/>=<sp/>mesArret[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexListArret&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexArret&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesTram[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexListTram&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexTram&quot;</highlight><highlight class="normal">)))-&gt;posX<sp/>=<sp/>mesArret[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexListArret&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexArret&quot;</highlight><highlight class="normal">)))-&gt;posX;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesTram[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexListTram&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexTram&quot;</highlight><highlight class="normal">)))-&gt;posY<sp/>=<sp/>mesArret[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexListArret&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexArret&quot;</highlight><highlight class="normal">)))-&gt;posY;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mesArret[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexListArret&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexArret&quot;</highlight><highlight class="normal">)))-&gt;numTramsSurPlace<sp/>=<sp/>mesTram[atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;IndexListTram&quot;</highlight><highlight class="normal">))]-&gt;accesAuCorps(atoi(arretDepart-&gt;Attribute(</highlight><highlight class="stringliteral">&quot;indexTram&quot;</highlight><highlight class="normal">)))-&gt;numLigne;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arretDepart<sp/>=<sp/>arretDepart-&gt;NextSiblingElement(</highlight><highlight class="stringliteral">&quot;arretDepart&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Depart<sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>--------------<sp/>FIN<sp/>DES<sp/>INITIALISATION<sp/>DES<sp/>STRUCTURES<sp/>-&gt;<sp/>DEBUT<sp/>DE<sp/>SIMULATION<sp/>--------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiXmlElement<sp/>*<sp/>TempsSimulation<sp/>=<sp/>racine-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;tempsSimulation&quot;</highlight><highlight class="normal">)-&gt;FirstChildElement(</highlight><highlight class="stringliteral">&quot;temps&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>temps<sp/>=<sp/>atoi(TempsSimulation-&gt;Attribute(&quot;tempsSimu&quot;));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Debut<sp/>de<sp/>la<sp/>simulation<sp/>pour<sp/>un<sp/>temps<sp/>de<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>temps<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>secondes.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Merci<sp/>de<sp/>ne<sp/>pas<sp/>deplacer<sp/>la<sp/>fenetre<sp/>console<sp/>durant<sp/>cette<sp/>periode.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtracer" kindref="compound">tracer</ref><sp/>*<sp/>d<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtracer" kindref="compound">tracer</ref>(800,<sp/>800);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d-&gt;<ref refid="classtracer_1a1ac543894333a48a09a1a423d33b20a5" kindref="member">simulerTram</ref>(mesLigne,<sp/>temps);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="liste_de_tramway_8h" kind="file" language="C++">
+    <compoundname>listeDeTramway.h</compoundname>
+    <includes refid="ligne_8h" local="yes">ligne.h</includes>
+    <includedby refid="lecture_x_m_l_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</includedby>
+    <includedby refid="tracer_8h" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</includedby>
+    <includedby refid="liste_de_tramway_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</includedby>
+    <incdepgraph>
+      <node id="220">
+        <label>ligne.h</label>
+        <link refid="ligne_8h"/>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>string</label>
+      </node>
+      <node id="222">
+        <label>listeArrets.h</label>
+        <link refid="liste_arrets_8h"/>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h</label>
+        <link refid="listeDeTramway.h"/>
+        <childnode refid="220" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="228">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp</label>
+        <link refid="liste_de_tramway_8cpp"/>
+      </node>
+      <node id="227">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp</label>
+        <link refid="tracer_8cpp"/>
+      </node>
+      <node id="225">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</label>
+        <link refid="tracer_8h"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</label>
+        <link refid="lecture_x_m_l_8cpp"/>
+      </node>
+      <node id="226">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="223">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h</label>
+        <link refid="listeDeTramway.h"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classtramway" prot="public">tramway</innerclass>
+    <innerclass refid="classliste_de_trams" prot="public">listeDeTrams</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>LISTEDETRAMWAY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LISTEDETRAMWAY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ligne_8h" kindref="compound">ligne.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classliste_arrets" kindref="compound">listeArrets</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classtramway" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtramway" kindref="compound">tramway</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="classtramway_1a769de17fc42804fb0d2a6751abb27e2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtramway_1a3f1e91b979ea3309cd93208439fb5a10" kindref="member">tramway</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" kindref="member">numLigne</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kindref="member">vitesseMax</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kindref="member">sens</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>,<sp/><ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/><ref refid="classtramway_1a0506569903981a08b8835a73fc49609b" kindref="member">ligneAffect</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Methode<sp/>qui<sp/>determine<sp/>si<sp/>le<sp/>tram<sp/>respecte<sp/>la<sp/>distance<sp/>de<sp/>securite</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtramway_1ac11a2d8761217b5db1253cc35ea67a66" kindref="member">respectDistanceDeSecurite</ref>();</highlight></codeline>
+<codeline lineno="15" refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" kindref="member">numLigne</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kindref="member">vitesseMax</ref>;<sp/></highlight><highlight class="comment">//<sp/>vitesse<sp/>max<sp/>du<sp/>tram</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>la<sp/>distance<sp/>entre<sp/>le<sp/>trame<sp/>et<sp/>larret<sp/>suivant</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kindref="member">sens</ref>;<sp/></highlight><highlight class="comment">//<sp/>le<sp/>sens<sp/>de<sp/>parcours<sp/>0<sp/>ou<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>;</highlight></codeline>
+<codeline lineno="21" refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Attributs<sp/>en<sp/>publi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classtramway_1a0506569903981a08b8835a73fc49609b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/><ref refid="classtramway_1a0506569903981a08b8835a73fc49609b" kindref="member">ligneAffect</ref>;</highlight></codeline>
+<codeline lineno="24" refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/><ref refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" kindref="member">suivant</ref>;</highlight></codeline>
+<codeline lineno="25" refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/><ref refid="classtramway_1a316032ab458b4ccf96b3f3f1bf327ee2" kindref="member">arretActuel</ref>;</highlight></codeline>
+<codeline lineno="26" refid="classtramway_1a59e30ad7e6df61e54fe2b326bd9e6134" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a59e30ad7e6df61e54fe2b326bd9e6134" kindref="member">distanceSecurite</ref>;</highlight><highlight class="comment">//distance<sp/>entre<sp/>deux<sp/>trams</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classtramway_1a85b44399cbbf04ec765d114465a4aa1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a85b44399cbbf04ec765d114465a4aa1f" kindref="member">distanceArret</ref>;</highlight></codeline>
+<codeline lineno="28" refid="classtramway_1a5eab187ab73b4b91a158dc05fd8ed066" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a5eab187ab73b4b91a158dc05fd8ed066" kindref="member">vitesseActuelle</ref>;<sp/></highlight><highlight class="comment">//<sp/>vitesse<sp/>à l&apos;arret</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtramway_1acfb0a0666823107c15ac26f074a67d79" kindref="member">terminus</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31" refid="classliste_de_trams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtramway_1a769de17fc42804fb0d2a6751abb27e2f" kindref="member">listeDeTrams</ref>();<sp/></highlight><highlight class="comment">//Constructeur<sp/>de<sp/>liste<sp/>chaine<sp/>de<sp/>trams</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classliste_de_trams" kindref="compound">listeDeTrams</ref>();<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Destructeur</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Ajouts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ajoutEnTete(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numero,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a401f568b9c8cedcf0c359eb68ea8865d" kindref="member">vitesseMax</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classtramway_1abc99be632a1ef40a7eae8bb46ac364f6" kindref="member">sens</ref>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtramway_1a0ba5b158240fe160ee8b91c74b4010f5" kindref="member">posX</ref>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classtramway_1afb1214281e7e1b2c9a9fd9a5d322e836" kindref="member">posY</ref>,<sp/><ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/><ref refid="classtramway_1a0506569903981a08b8835a73fc49609b" kindref="member">ligneAffect</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ajoutAuQueue(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numero,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vitesseMax,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sens,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posX,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posY,<sp/><ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>ligneAffect);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ajoutAuCorps(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numero,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vitesseMax,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sens,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posX,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posY,<sp/><ref refid="classligne" kindref="compound">ligne</ref><sp/>*<sp/>ligneAffect,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>corps);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Suppressions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>supprEnTete();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>supprAuQueue();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>supprAuCorps(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>corps);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ACCES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>accesEnTete()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>accesAuQueue()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>accesAuCorps(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>corps)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>afficherListe()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>estVide()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nombreDeTrams()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtramway" kindref="compound">tramway</ref><sp/>*<sp/>d_tete;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d_nombreDeTrams;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>LISTEDETRAMWAY_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h"/>
+  </compounddef>
+</doxygen>

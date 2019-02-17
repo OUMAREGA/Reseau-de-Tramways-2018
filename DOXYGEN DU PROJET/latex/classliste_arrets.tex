@@ -1,0 +1,355 @@
+\hypertarget{classliste_arrets}{}\section{liste\+Arrets Class Reference}
+\label{classliste_arrets}\index{liste\+Arrets@{liste\+Arrets}}
+
+
+{\ttfamily \#include $<$liste\+Arrets.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classliste_arrets_abbfaa5d64a48879f0786338279371b83}{liste\+Arrets} ()
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+void \hyperlink{classliste_arrets_a7168c4b4ca72f6ab07f02d4af5877586}{ajout\+En\+Tete} (double posX, double posY, int temps\+Arret, std\+::string nom\+Arret)
+\begin{DoxyCompactList}\small\item\em A\+J\+O\+U\+TS. \end{DoxyCompactList}\item 
+void \hyperlink{classliste_arrets_adbe0e8547d19edc9bf0982296fab2dfe}{ajout\+Au\+Corps} (double posX, double posY, int temps\+Arret, std\+::string nom\+Arret, int corps)
+\item 
+void \hyperlink{classliste_arrets_ad9ed677ee4b46f66fdfaba2386dd76c0}{ajout\+Au\+Queue} (double posX, double posY, int temps\+Arret, std\+::string nom\+Arret)
+\begin{DoxyCompactList}\small\item\em A\+J\+O\+U\+TS. \end{DoxyCompactList}\item 
+void \hyperlink{classliste_arrets_a20fce6e1d98821ff429d7f7f3c9884d3}{suppr\+En\+Tete} ()
+\begin{DoxyCompactList}\small\item\em S\+U\+P\+P\+R\+I\+M\+ER. \end{DoxyCompactList}\item 
+void \hyperlink{classliste_arrets_a41a1078cbefd801be82a355bd3aa7a75}{suppr\+Au\+Corps} (int corps)
+\item 
+void \hyperlink{classliste_arrets_a2321a82dd320d42c1a448035e0bd80e9}{suppr\+Au\+Queue} ()
+\item 
+\hyperlink{classarret}{arret} $\ast$ \hyperlink{classliste_arrets_aae9dc33e355d001c9c4dc1646a2f632d}{acces\+En\+Tete} () const 
+\begin{DoxyCompactList}\small\item\em A\+C\+C\+ES. \end{DoxyCompactList}\item 
+\hyperlink{classarret}{arret} $\ast$ \hyperlink{classliste_arrets_aa9a45866bcc46e69260fdb168cec4407}{acces\+Au\+Corps} (int corps) const 
+\item 
+\hyperlink{classarret}{arret} $\ast$ \hyperlink{classliste_arrets_a29a7a234c4abe23456cea8d2df1029bf}{acces\+Au\+Queue} () const 
+\item 
+void \hyperlink{classliste_arrets_a7e7a28f3a13ff29e1b62e5c19751650b}{afficher\+Liste} () const 
+\begin{DoxyCompactList}\small\item\em Affiche la liste des arrets au niveau console. \end{DoxyCompactList}\item 
+bool \hyperlink{classliste_arrets_a5731637ae9971b0188c3d4122a52b022}{est\+Aucun\+Arret} () const 
+\item 
+int \hyperlink{classliste_arrets_a8ebe5918ee71e0c09060227253ade9d8}{nombre\+Arrets} () const 
+\item 
+\hyperlink{classliste_arrets_afdde522c1f07a7bd3b9e3f9dc202c532}{$\sim$liste\+Arrets} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{liste\+Arrets@{liste\+Arrets}!liste\+Arrets@{liste\+Arrets}}
+\index{liste\+Arrets@{liste\+Arrets}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{liste\+Arrets()}{listeArrets()}}]{\setlength{\rightskip}{0pt plus 5cm}liste\+Arrets\+::liste\+Arrets (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_abbfaa5d64a48879f0786338279371b83}{}\label{classliste_arrets_abbfaa5d64a48879f0786338279371b83}
+
+
+Constructeur. 
+
+\index{liste\+Arrets@{liste\+Arrets}!````~liste\+Arrets@{$\sim$liste\+Arrets}}
+\index{````~liste\+Arrets@{$\sim$liste\+Arrets}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{$\sim$liste\+Arrets()}{~listeArrets()}}]{\setlength{\rightskip}{0pt plus 5cm}liste\+Arrets\+::$\sim$liste\+Arrets (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_afdde522c1f07a7bd3b9e3f9dc202c532}{}\label{classliste_arrets_afdde522c1f07a7bd3b9e3f9dc202c532}
+
+
+Destructeur. 
+
+D\+E\+S\+T\+R\+U\+C\+T\+E\+UR. 
+
+\subsection{Member Function Documentation}
+\index{liste\+Arrets@{liste\+Arrets}!acces\+Au\+Corps@{acces\+Au\+Corps}}
+\index{acces\+Au\+Corps@{acces\+Au\+Corps}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{acces\+Au\+Corps(int corps) const }{accesAuCorps(int corps) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf arret} $\ast$ liste\+Arrets\+::acces\+Au\+Corps (
+\begin{DoxyParamCaption}
+\item[{int}]{corps}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_arrets_aa9a45866bcc46e69260fdb168cec4407}{}\label{classliste_arrets_aa9a45866bcc46e69260fdb168cec4407}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em -\/} & corps \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ a une position 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classliste_arrets_aa9a45866bcc46e69260fdb168cec4407_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!acces\+Au\+Queue@{acces\+Au\+Queue}}
+\index{acces\+Au\+Queue@{acces\+Au\+Queue}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{acces\+Au\+Queue() const }{accesAuQueue() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf arret} $\ast$ liste\+Arrets\+::acces\+Au\+Queue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_arrets_a29a7a234c4abe23456cea8d2df1029bf}{}\label{classliste_arrets_a29a7a234c4abe23456cea8d2df1029bf}
+\begin{DoxyReturn}{Returns}
+-\/ retourne le dernier arret 
+\end{DoxyReturn}
+\index{liste\+Arrets@{liste\+Arrets}!acces\+En\+Tete@{acces\+En\+Tete}}
+\index{acces\+En\+Tete@{acces\+En\+Tete}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{acces\+En\+Tete() const }{accesEnTete() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf arret} $\ast$ liste\+Arrets\+::acces\+En\+Tete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_arrets_aae9dc33e355d001c9c4dc1646a2f632d}{}\label{classliste_arrets_aae9dc33e355d001c9c4dc1646a2f632d}
+
+
+A\+C\+C\+ES. 
+
+\begin{DoxyReturn}{Returns}
+-\/ le premier arret 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classliste_arrets_aae9dc33e355d001c9c4dc1646a2f632d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!afficher\+Liste@{afficher\+Liste}}
+\index{afficher\+Liste@{afficher\+Liste}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{afficher\+Liste() const }{afficherListe() const }}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+Arrets\+::afficher\+Liste (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_arrets_a7e7a28f3a13ff29e1b62e5c19751650b}{}\label{classliste_arrets_a7e7a28f3a13ff29e1b62e5c19751650b}
+
+
+Affiche la liste des arrets au niveau console. 
+
+\index{liste\+Arrets@{liste\+Arrets}!ajout\+Au\+Corps@{ajout\+Au\+Corps}}
+\index{ajout\+Au\+Corps@{ajout\+Au\+Corps}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{ajout\+Au\+Corps(double pos\+X, double pos\+Y, int temps\+Arret, std\+::string nom\+Arret, int corps)}{ajoutAuCorps(double posX, double posY, int tempsArret, std::string nomArret, int corps)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+Arrets\+::ajout\+Au\+Corps (
+\begin{DoxyParamCaption}
+\item[{double}]{posX, }
+\item[{double}]{posY, }
+\item[{int}]{temps\+Arret, }
+\item[{std\+::string}]{nom\+Arret, }
+\item[{int}]{corps}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_adbe0e8547d19edc9bf0982296fab2dfe}{}\label{classliste_arrets_adbe0e8547d19edc9bf0982296fab2dfe}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em posX} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posY} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em temps\+Arret} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em nom\+Arret} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em corsp} & -\/ la position \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_arrets_adbe0e8547d19edc9bf0982296fab2dfe_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!ajout\+Au\+Queue@{ajout\+Au\+Queue}}
+\index{ajout\+Au\+Queue@{ajout\+Au\+Queue}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{ajout\+Au\+Queue(double pos\+X, double pos\+Y, int temps\+Arret, std\+::string nom\+Arret)}{ajoutAuQueue(double posX, double posY, int tempsArret, std::string nomArret)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+Arrets\+::ajout\+Au\+Queue (
+\begin{DoxyParamCaption}
+\item[{double}]{posX, }
+\item[{double}]{posY, }
+\item[{int}]{temps\+Arret, }
+\item[{std\+::string}]{nom\+Arret}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_ad9ed677ee4b46f66fdfaba2386dd76c0}{}\label{classliste_arrets_ad9ed677ee4b46f66fdfaba2386dd76c0}
+
+
+A\+J\+O\+U\+TS. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em posX} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posY} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em temps\+Arret} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em nom\+Arret} & -\/ \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_arrets_ad9ed677ee4b46f66fdfaba2386dd76c0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!ajout\+En\+Tete@{ajout\+En\+Tete}}
+\index{ajout\+En\+Tete@{ajout\+En\+Tete}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{ajout\+En\+Tete(double pos\+X, double pos\+Y, int temps\+Arret, std\+::string nom\+Arret)}{ajoutEnTete(double posX, double posY, int tempsArret, std::string nomArret)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+Arrets\+::ajout\+En\+Tete (
+\begin{DoxyParamCaption}
+\item[{double}]{posX, }
+\item[{double}]{posY, }
+\item[{int}]{temps\+Arret, }
+\item[{std\+::string}]{nom\+Arret}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_a7168c4b4ca72f6ab07f02d4af5877586}{}\label{classliste_arrets_a7168c4b4ca72f6ab07f02d4af5877586}
+
+
+A\+J\+O\+U\+TS. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em posX} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posY} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em temps\+Arret} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em nom\+Arret} & -\/ \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_arrets_a7168c4b4ca72f6ab07f02d4af5877586_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!est\+Aucun\+Arret@{est\+Aucun\+Arret}}
+\index{est\+Aucun\+Arret@{est\+Aucun\+Arret}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{est\+Aucun\+Arret() const }{estAucunArret() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool liste\+Arrets\+::est\+Aucun\+Arret (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_arrets_a5731637ae9971b0188c3d4122a52b022}{}\label{classliste_arrets_a5731637ae9971b0188c3d4122a52b022}
+\begin{DoxyReturn}{Returns}
+-\/ si le nombre arret est vide 
+\end{DoxyReturn}
+\index{liste\+Arrets@{liste\+Arrets}!nombre\+Arrets@{nombre\+Arrets}}
+\index{nombre\+Arrets@{nombre\+Arrets}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{nombre\+Arrets() const }{nombreArrets() const }}]{\setlength{\rightskip}{0pt plus 5cm}int liste\+Arrets\+::nombre\+Arrets (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_arrets_a8ebe5918ee71e0c09060227253ade9d8}{}\label{classliste_arrets_a8ebe5918ee71e0c09060227253ade9d8}
+\begin{DoxyReturn}{Returns}
+-\/ le nombre d\textquotesingle{}arrets 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classliste_arrets_a8ebe5918ee71e0c09060227253ade9d8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!suppr\+Au\+Corps@{suppr\+Au\+Corps}}
+\index{suppr\+Au\+Corps@{suppr\+Au\+Corps}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{suppr\+Au\+Corps(int corps)}{supprAuCorps(int corps)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+Arrets\+::suppr\+Au\+Corps (
+\begin{DoxyParamCaption}
+\item[{int}]{corps}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_a41a1078cbefd801be82a355bd3aa7a75}{}\label{classliste_arrets_a41a1078cbefd801be82a355bd3aa7a75}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em -\/} & corps -\/supprimer a une position \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_arrets_a41a1078cbefd801be82a355bd3aa7a75_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!suppr\+Au\+Queue@{suppr\+Au\+Queue}}
+\index{suppr\+Au\+Queue@{suppr\+Au\+Queue}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{suppr\+Au\+Queue()}{supprAuQueue()}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+Arrets\+::suppr\+Au\+Queue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_a2321a82dd320d42c1a448035e0bd80e9}{}\label{classliste_arrets_a2321a82dd320d42c1a448035e0bd80e9}
+delete au queue 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_arrets_a2321a82dd320d42c1a448035e0bd80e9_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+Arrets@{liste\+Arrets}!suppr\+En\+Tete@{suppr\+En\+Tete}}
+\index{suppr\+En\+Tete@{suppr\+En\+Tete}!liste\+Arrets@{liste\+Arrets}}
+\subsubsection[{\texorpdfstring{suppr\+En\+Tete()}{supprEnTete()}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+Arrets\+::suppr\+En\+Tete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_arrets_a20fce6e1d98821ff429d7f7f3c9884d3}{}\label{classliste_arrets_a20fce6e1d98821ff429d7f7f3c9884d3}
+
+
+S\+U\+P\+P\+R\+I\+M\+ER. 
+
+S\+U\+P\+P\+R\+E\+S\+S\+I\+ON.
+
+Delete en tete 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_arrets_a20fce6e1d98821ff429d7f7f3c9884d3_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{liste_arrets_8h}{liste\+Arrets.\+h}\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{liste_arrets_8cpp}{liste\+Arrets.\+cpp}\end{DoxyCompactItemize}

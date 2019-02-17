@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<TramWay>
+	<!-- liste d'arrets -->
+	<listArrets>
+		<nbListArret nombre="3" />
+	</listArrets>
+
+	<!-- arrets -->
+	<arrets>
+		<nbArret nombre="28" />
+		<arret IndexlistArretAffect="0" posX="60" posY="250" dureeStop="10" nom="Cinque Avenue" />
+		<arret IndexlistArretAffect="0" posX="150" posY="250" dureeStop="10" nom="Air Bel" />
+		<arret IndexlistArretAffect="0" posX="250" posY="300" dureeStop="10" nom="Place de Rome" />
+		<arret IndexlistArretAffect="0" posX="370" posY="300" dureeStop="10" nom="National" />
+		<arret IndexlistArretAffect="0" posX="480" posY="300" dureeStop="10" nom="Castellane" />
+		<arret IndexlistArretAffect="0" posX="530" posY="280" dureeStop="10" nom="Garde du Sud" />
+		<arret IndexlistArretAffect="0" posX="560" posY="250" dureeStop="10" nom="Republique" />
+		<arret IndexlistArretAffect="0" posX="570" posY="200" dureeStop="10" nom="Pyramide" />
+		<arret IndexlistArretAffect="0" posX="570" posY="150" dureeStop="10" nom="Pont neuf" />
+		<arret IndexlistArretAffect="0" posX="650" posY="100" dureeStop="10" nom="Arc de Triomphe" />
+		
+
+
+		
+		<arret IndexlistArretAffect="1" posX="200" posY="30" dureeStop="10" nom="Commerce" />
+		<arret IndexlistArretAffect="1" posX="150" posY="80" dureeStop="10" nom="Gare Centrale" />
+		<arret IndexlistArretAffect="1" posX="70" posY="140" dureeStop="10" nom="Porte jaune" />
+		<arret IndexlistArretAffect="1" posX="60" posY="190" dureeStop="10" nom="Mairie" />
+		<arret IndexlistArretAffect="1" posX="60" posY="250" dureeStop="10" nom="Porte basse" />
+		<arret IndexlistArretAffect="1" posX="60" posY="300" dureeStop="10" nom="Daguerre" />
+		<arret IndexlistArretAffect="1" posX="250" posY="300" dureeStop="10" nom="Illquelle" />
+		<arret IndexlistArretAffect="1" posX="250" posY="350" dureeStop="10" nom="Universite" />
+		<arret IndexlistArretAffect="1" posX="240" posY="420" dureeStop="10" nom="Hopital" />
+		<arret IndexlistArretAffect="1" posX="350" posY="420" dureeStop="10" nom="Nation (Terminus)" />
+
+		<arret IndexlistArretAffect="2" posX="450" posY="30" dureeStop="10" nom="Nouvau bassin (Terminus)" />
+		<arret IndexlistArretAffect="2" posX="370" posY="80" dureeStop="10" nom="Collines" />
+		<arret IndexlistArretAffect="2" posX="370" posY="140" dureeStop="10" nom="Zoo" />
+		<arret IndexlistArretAffect="2" posX="370" posY="190" dureeStop="10" nom="Bale" />
+		<arret IndexlistArretAffect="2" posX="370" posY="300" dureeStop="10" nom="Bartholdi" />
+		<arret IndexlistArretAffect="2" posX="250" posY="300" dureeStop="10" nom="Palace de la Republique" />
+		<arret IndexlistArretAffect="2" posX="150" posY="390" dureeStop="10" nom="Musee d'art" />
+		<arret IndexlistArretAffect="2" posX="90" posY="490" dureeStop="10" nom="Winstub" />
+		<arret IndexlistArretAffect="2" posX="50" posY="550" dureeStop="10" nom="Mont Blanc" />
+		<arret IndexlistArretAffect="2" posX="30" posY="650" dureeStop="10" nom="China town (Terminus)" />
+	</arrets>
+
+	<!-- liste de tram -->
+	<listTrams>
+		<nbListTram nombre="3" />
+	</listTrams>
+
+	<!--ligne -->
+	<lignes>
+		<nbLigne nombre="3" />
+		<ligne index="0" nomLigne="E" IndexlistArret="0" IndexListTram="0" />
+		<ligne index="1" nomLigne="A" IndexlistArret="1" IndexListTram="1" />
+		<ligne index="2" nomLigne="F" IndexlistArret="2" IndexListTram="2" />
+	</lignes>
+
+	<!-- tram -->
+	<trams>
+		<nbTram nombre="7" />
+		<tram IndexlistTramAffect="0" numero="0" vitesseMax="9" senseDep="0" posX="0" posY="0" IndexLigneAffect="0" />
+		<tram IndexlistTramAffect="0" numero="1" vitesseMax="10" senseDep="0" posX="0" posY="0" IndexLigneAffect="0" />
+
+		<tram IndexlistTramAffect="1" numero="2" vitesseMax="11" senseDep="0" posX="0" posY="0" IndexLigneAffect="1" />
+		<tram IndexlistTramAffect="1" numero="3" vitesseMax="12" senseDep="0" posX="0" posY="0" IndexLigneAffect="1" />
+
+		<tram IndexlistTramAffect="2" numero="4" vitesseMax="10" senseDep="0" posX="0" posY="0" IndexLigneAffect="2" />
+		<tram IndexlistTramAffect="2" numero="5" vitesseMax="13" senseDep="0" posX="0" posY="0" IndexLigneAffect="2" />
+		<tram IndexlistTramAffect="2" numero="6" vitesseMax="7" senseDep="0" posX="0" posY="0" IndexLigneAffect="2" />
+	</trams>
+
+	<!-- Définition des arret de départ des différents trams -->
+	<arretDeparts>
+		<arretDepart IndexListTram="0" indexTram="0" indexListArret="0" indexArret="0" />
+		<arretDepart IndexListTram="0" indexTram="1" indexListArret="0" indexArret="1" />
+
+		<arretDepart IndexListTram="1" indexTram="0" indexListArret="1" indexArret="0" />
+		<arretDepart IndexListTram="1" indexTram="1" indexListArret="1" indexArret="1" />
+
+		<arretDepart IndexListTram="2" indexTram="0" indexListArret="2" indexArret="0" />
+		<arretDepart IndexListTram="2" indexTram="1" indexListArret="2" indexArret="3" />
+		<arretDepart IndexListTram="2" indexTram="2" indexListArret="2" indexArret="6" />
+	</arretDeparts>
+	
+		<!-- Définition des arret de départ des différents trams -->
+	<tempsSimulation>
+		<temps tempsSimu="10" />
+	</tempsSimulation>
+</TramWay>

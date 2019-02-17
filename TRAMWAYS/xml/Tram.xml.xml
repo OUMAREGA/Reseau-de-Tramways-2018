@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- liste d'arrets -->
+<listArrets>
+	<listArret nom="mesArret0" />
+	<listArret nom="mesArret1" />
+</listArrets>
+
+<!-- arrets -->
+<arrets>
+	<arret listArretAffect="mesArret0" posX="50" posY="70" dureeStop="10" nom="arret1") />
+	<arret listArretAffect="mesArret0" posX="150" posY="100" dureeStop="10" nom="arret2") />
+	<arret listArretAffect="mesArret0" posX="250" posY="190" dureeStop="10" nom="arret3") />
+	
+	<arret listArretAffect="mesArret1" posX="230" posY="30" dureeStop="10" nom="arret4") />
+	<arret listArretAffect="mesArret1" posX="150" posY="100" dureeStop="10" nom="arret2") />
+	<arret listArretAffect="mesArret1" posX="100" posY="200" dureeStop="10" nom="arret6") />
+</arrets>
+
+<!-- liste de tram -->
+<listTrams>
+	<listTram nom="mesTram0" />
+	<listTram nom="mesTram1" />
+</listTrams>
+
+<!--ligne -->
+<lignes>
+	<maLigne nom="ligne0" numero="0" nomLigne="Coteaux" listArret="mesArret0" listTram="mesTram0" />
+
+	<maLigne nom="ligne1" nomLigne="Gare central" listArret="mesArret1" listTram="mesTram1" />
+</lignes>
+
+<!-- tram -->
+<trams>
+	<tram listTramAffect="mesTram0" numero="0" vitesseMax="0" senseDep="0" posX="0" posY="0" ligneAffect="ligne0" arretDepart="0" />
+	<tram listTramAffect="mesTram0" numero="1" vitesseMax="0" senseDep="0" posX="0" posY="0" ligneAffect="ligne0" arretDepart="1" />
+
+	<tram listTramAffect="mesTram0" numero="3" vitesseMax="0" senseDep="0" posX="0" posY="0" ligneAffect="ligne1" arretDepart="0" />
+	<tram listTramAffect="mesTram1" numero="4" vitesseMax="0" senseDep="0" posX="0" posY="0" ligneAffect="ligne1" arretDepart="1" />
+</trams>
+
+<!-- Définition des arret de départ des différents trams -->
+<arretDepart>
+	<arretDepartTram listTram="mesTram0" indexTram="0" listArret="mesArret0" indexArret="0" />
+	<arretDepartTram listTram="mesTram0" indexTram="1" listArret="mesArret0" indexArret="1" />
+
+	<arretDepartTram listTram="mesTram1" indexTram="0" listArret="mesArret0" indexArret="0" />
+	<arretDepartTram listTram="mesTram1" indexTram="1" listArret="mesArret0" indexArret="1" />
+</arretDepart>

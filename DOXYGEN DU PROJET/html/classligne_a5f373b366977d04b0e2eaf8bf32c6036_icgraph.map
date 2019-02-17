@@ -1,0 +1,6 @@
+<map id="ligne::trams" name="ligne::trams">
+<area shape="rect" id="node2" href="$classligne.html#a46cce30fd93232136e89005a3a46327a" title="ligne::ligne" alt="" coords="169,5,253,32"/>
+<area shape="rect" id="node3" href="$classligne.html#a5cde292801e3554a0bffd35ce83c49be" title="ligne::trams" alt="" coords="166,56,257,83"/>
+<area shape="rect" id="node4" href="$classtracer.html#ae50f04257d21db5b947cd8548414a0f7" title="tracer::placerTrams" alt="" coords="144,107,279,133"/>
+<area shape="rect" id="node5" href="$classtracer.html#a206500c8582dbad012b898dc922fc5a7" title="tracer::moveTrams" alt="" coords="147,157,276,184"/>
+</map>

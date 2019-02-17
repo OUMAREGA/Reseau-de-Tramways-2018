@@ -1,0 +1,337 @@
+\hypertarget{classliste_de_trams}{}\section{liste\+De\+Trams Class Reference}
+\label{classliste_de_trams}\index{liste\+De\+Trams@{liste\+De\+Trams}}
+
+
+{\ttfamily \#include $<$liste\+De\+Tramway.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classliste_de_trams_a63cd8796fa2fd5b877f378b1c4e8d66d}{liste\+De\+Trams} ()
+\item 
+\hyperlink{classliste_de_trams_ac4f850a2d93ad983b485cfa83fdcb57d}{$\sim$liste\+De\+Trams} ()
+\begin{DoxyCompactList}\small\item\em D\+E\+S\+T\+R\+U\+C\+T\+E\+UR. \end{DoxyCompactList}\item 
+void \hyperlink{classliste_de_trams_acc9f9a3e125a1801cfe108a4a9b27cfc}{ajout\+En\+Tete} (int numero, int vitesse\+Max, bool sens, double posX, double posY, \hyperlink{classligne}{ligne} $\ast$ligne\+Affect)
+\begin{DoxyCompactList}\small\item\em A\+J\+O\+U\+TS. \end{DoxyCompactList}\item 
+void \hyperlink{classliste_de_trams_af969635f70bda1d3b429a1220e649d7c}{ajout\+Au\+Queue} (int numero, int vitesse\+Max, bool sens, double posX, double posY, \hyperlink{classligne}{ligne} $\ast$ligne\+Affect)
+\item 
+void \hyperlink{classliste_de_trams_aae576aa98d9709644fee9dda66ea54f7}{ajout\+Au\+Corps} (int numero, int vitesse\+Max, bool sens, double posX, double posY, \hyperlink{classligne}{ligne} $\ast$ligne\+Affect, int corps)
+\item 
+void \hyperlink{classliste_de_trams_a495cc9d541621a18e3c10817e62d31bd}{suppr\+En\+Tete} ()
+\begin{DoxyCompactList}\small\item\em S\+U\+P\+P\+R\+E\+S\+S\+I\+O\+NS. \end{DoxyCompactList}\item 
+void \hyperlink{classliste_de_trams_aea83e66431a0a5ff31a631a04f3284cc}{suppr\+Au\+Queue} ()
+\item 
+void \hyperlink{classliste_de_trams_a718310361597fbe63375c37f3028defa}{suppr\+Au\+Corps} (int corps)
+\item 
+\hyperlink{classtramway}{tramway} $\ast$ \hyperlink{classliste_de_trams_aa494f9ab59eb0250608782b536f2aa5f}{acces\+En\+Tete} () const 
+\begin{DoxyCompactList}\small\item\em A\+C\+C\+ES. \end{DoxyCompactList}\item 
+\hyperlink{classtramway}{tramway} $\ast$ \hyperlink{classliste_de_trams_a442cc0dc48c4d8abfd3e8de30a85e24c}{acces\+Au\+Queue} () const 
+\item 
+\hyperlink{classtramway}{tramway} $\ast$ \hyperlink{classliste_de_trams_a2e66b663287f770c709c16d89424818e}{acces\+Au\+Corps} (int corps) const 
+\item 
+void \hyperlink{classliste_de_trams_ab1d9638e4f071077f5182413ae8b1c8c}{afficher\+Liste} () const 
+\item 
+bool \hyperlink{classliste_de_trams_a137520c68e8c14b3cbfa1711d21849a1}{est\+Vide} () const 
+\item 
+int \hyperlink{classliste_de_trams_afd3b9e87aa935dca81ce3f6d1aea6f75}{nombre\+De\+Trams} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{liste\+De\+Trams@{liste\+De\+Trams}!liste\+De\+Trams@{liste\+De\+Trams}}
+\index{liste\+De\+Trams@{liste\+De\+Trams}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{liste\+De\+Trams()}{listeDeTrams()}}]{\setlength{\rightskip}{0pt plus 5cm}liste\+De\+Trams\+::liste\+De\+Trams (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_a63cd8796fa2fd5b877f378b1c4e8d66d}{}\label{classliste_de_trams_a63cd8796fa2fd5b877f378b1c4e8d66d}
+Le constructeur \index{liste\+De\+Trams@{liste\+De\+Trams}!````~liste\+De\+Trams@{$\sim$liste\+De\+Trams}}
+\index{````~liste\+De\+Trams@{$\sim$liste\+De\+Trams}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{$\sim$liste\+De\+Trams()}{~listeDeTrams()}}]{\setlength{\rightskip}{0pt plus 5cm}liste\+De\+Trams\+::$\sim$liste\+De\+Trams (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_ac4f850a2d93ad983b485cfa83fdcb57d}{}\label{classliste_de_trams_ac4f850a2d93ad983b485cfa83fdcb57d}
+
+
+D\+E\+S\+T\+R\+U\+C\+T\+E\+UR. 
+
+
+
+\subsection{Member Function Documentation}
+\index{liste\+De\+Trams@{liste\+De\+Trams}!acces\+Au\+Corps@{acces\+Au\+Corps}}
+\index{acces\+Au\+Corps@{acces\+Au\+Corps}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{acces\+Au\+Corps(int corps) const }{accesAuCorps(int corps) const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tramway} $\ast$ liste\+De\+Trams\+::acces\+Au\+Corps (
+\begin{DoxyParamCaption}
+\item[{int}]{corps}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_de_trams_a2e66b663287f770c709c16d89424818e}{}\label{classliste_de_trams_a2e66b663287f770c709c16d89424818e}
+\begin{DoxyReturn}{Returns}
+-\/ le corps ieme tram de la liste 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_a2e66b663287f770c709c16d89424818e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+De\+Trams@{liste\+De\+Trams}!acces\+Au\+Queue@{acces\+Au\+Queue}}
+\index{acces\+Au\+Queue@{acces\+Au\+Queue}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{acces\+Au\+Queue() const }{accesAuQueue() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tramway} $\ast$ liste\+De\+Trams\+::acces\+Au\+Queue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_de_trams_a442cc0dc48c4d8abfd3e8de30a85e24c}{}\label{classliste_de_trams_a442cc0dc48c4d8abfd3e8de30a85e24c}
+\begin{DoxyReturn}{Returns}
+-\/ le dernier tram de la liste 
+\end{DoxyReturn}
+\index{liste\+De\+Trams@{liste\+De\+Trams}!acces\+En\+Tete@{acces\+En\+Tete}}
+\index{acces\+En\+Tete@{acces\+En\+Tete}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{acces\+En\+Tete() const }{accesEnTete() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tramway} $\ast$ liste\+De\+Trams\+::acces\+En\+Tete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_de_trams_aa494f9ab59eb0250608782b536f2aa5f}{}\label{classliste_de_trams_aa494f9ab59eb0250608782b536f2aa5f}
+
+
+A\+C\+C\+ES. 
+
+\begin{DoxyReturn}{Returns}
+-\/ le premier tram de la liste 
+\end{DoxyReturn}
+\index{liste\+De\+Trams@{liste\+De\+Trams}!afficher\+Liste@{afficher\+Liste}}
+\index{afficher\+Liste@{afficher\+Liste}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{afficher\+Liste() const }{afficherListe() const }}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+De\+Trams\+::afficher\+Liste (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_de_trams_ab1d9638e4f071077f5182413ae8b1c8c}{}\label{classliste_de_trams_ab1d9638e4f071077f5182413ae8b1c8c}
+Affiche la liste tram au niveau console \index{liste\+De\+Trams@{liste\+De\+Trams}!ajout\+Au\+Corps@{ajout\+Au\+Corps}}
+\index{ajout\+Au\+Corps@{ajout\+Au\+Corps}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{ajout\+Au\+Corps(int numero, int vitesse\+Max, bool sens, double pos\+X, double pos\+Y, ligne $\ast$ligne\+Affect, int corps)}{ajoutAuCorps(int numero, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect, int corps)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+De\+Trams\+::ajout\+Au\+Corps (
+\begin{DoxyParamCaption}
+\item[{int}]{numero, }
+\item[{int}]{vitesse\+Max, }
+\item[{bool}]{sens, }
+\item[{double}]{posX, }
+\item[{double}]{posY, }
+\item[{{\bf ligne} $\ast$}]{ligne\+Affect, }
+\item[{int}]{corps}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_aae576aa98d9709644fee9dda66ea54f7}{}\label{classliste_de_trams_aae576aa98d9709644fee9dda66ea54f7}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em num\+Ligne} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em vitesse\+Max} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em sens} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posX} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posY} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em corps} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em ligne\+Affect} & -\/ \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_aae576aa98d9709644fee9dda66ea54f7_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+De\+Trams@{liste\+De\+Trams}!ajout\+Au\+Queue@{ajout\+Au\+Queue}}
+\index{ajout\+Au\+Queue@{ajout\+Au\+Queue}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{ajout\+Au\+Queue(int numero, int vitesse\+Max, bool sens, double pos\+X, double pos\+Y, ligne $\ast$ligne\+Affect)}{ajoutAuQueue(int numero, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+De\+Trams\+::ajout\+Au\+Queue (
+\begin{DoxyParamCaption}
+\item[{int}]{numero, }
+\item[{int}]{vitesse\+Max, }
+\item[{bool}]{sens, }
+\item[{double}]{posX, }
+\item[{double}]{posY, }
+\item[{{\bf ligne} $\ast$}]{ligne\+Affect}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_af969635f70bda1d3b429a1220e649d7c}{}\label{classliste_de_trams_af969635f70bda1d3b429a1220e649d7c}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em num\+Ligne} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em vitesse\+Max} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em sens} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posX} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posY} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em ligne\+Affect} & -\/ \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_af969635f70bda1d3b429a1220e649d7c_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+De\+Trams@{liste\+De\+Trams}!ajout\+En\+Tete@{ajout\+En\+Tete}}
+\index{ajout\+En\+Tete@{ajout\+En\+Tete}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{ajout\+En\+Tete(int numero, int vitesse\+Max, bool sens, double pos\+X, double pos\+Y, ligne $\ast$ligne\+Affect)}{ajoutEnTete(int numero, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+De\+Trams\+::ajout\+En\+Tete (
+\begin{DoxyParamCaption}
+\item[{int}]{num\+Ligne, }
+\item[{int}]{vitesse\+Max, }
+\item[{bool}]{sens, }
+\item[{double}]{posX, }
+\item[{double}]{posY, }
+\item[{{\bf ligne} $\ast$}]{ligne\+Affect}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_acc9f9a3e125a1801cfe108a4a9b27cfc}{}\label{classliste_de_trams_acc9f9a3e125a1801cfe108a4a9b27cfc}
+
+
+A\+J\+O\+U\+TS. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em num\+Ligne} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em vitesse\+Max} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em sens} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posX} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em posY} & -\/ \\
+\hline
+\mbox{\tt in}  & {\em ligne\+Affect} & -\/ \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_acc9f9a3e125a1801cfe108a4a9b27cfc_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+De\+Trams@{liste\+De\+Trams}!est\+Vide@{est\+Vide}}
+\index{est\+Vide@{est\+Vide}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{est\+Vide() const }{estVide() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool liste\+De\+Trams\+::est\+Vide (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_de_trams_a137520c68e8c14b3cbfa1711d21849a1}{}\label{classliste_de_trams_a137520c68e8c14b3cbfa1711d21849a1}
+\begin{DoxyReturn}{Returns}
+-\/ si le nombre tram =0 
+\end{DoxyReturn}
+\index{liste\+De\+Trams@{liste\+De\+Trams}!nombre\+De\+Trams@{nombre\+De\+Trams}}
+\index{nombre\+De\+Trams@{nombre\+De\+Trams}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{nombre\+De\+Trams() const }{nombreDeTrams() const }}]{\setlength{\rightskip}{0pt plus 5cm}int liste\+De\+Trams\+::nombre\+De\+Trams (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classliste_de_trams_afd3b9e87aa935dca81ce3f6d1aea6f75}{}\label{classliste_de_trams_afd3b9e87aa935dca81ce3f6d1aea6f75}
+\begin{DoxyReturn}{Returns}
+-\/ le nombre tram 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_afd3b9e87aa935dca81ce3f6d1aea6f75_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+De\+Trams@{liste\+De\+Trams}!suppr\+Au\+Corps@{suppr\+Au\+Corps}}
+\index{suppr\+Au\+Corps@{suppr\+Au\+Corps}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{suppr\+Au\+Corps(int corps)}{supprAuCorps(int corps)}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+De\+Trams\+::suppr\+Au\+Corps (
+\begin{DoxyParamCaption}
+\item[{int}]{corps}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_a718310361597fbe63375c37f3028defa}{}\label{classliste_de_trams_a718310361597fbe63375c37f3028defa}
+delete a une position int corps 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_a718310361597fbe63375c37f3028defa_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+De\+Trams@{liste\+De\+Trams}!suppr\+Au\+Queue@{suppr\+Au\+Queue}}
+\index{suppr\+Au\+Queue@{suppr\+Au\+Queue}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{suppr\+Au\+Queue()}{supprAuQueue()}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+De\+Trams\+::suppr\+Au\+Queue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_aea83e66431a0a5ff31a631a04f3284cc}{}\label{classliste_de_trams_aea83e66431a0a5ff31a631a04f3284cc}
+delete au queue 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_aea83e66431a0a5ff31a631a04f3284cc_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{liste\+De\+Trams@{liste\+De\+Trams}!suppr\+En\+Tete@{suppr\+En\+Tete}}
+\index{suppr\+En\+Tete@{suppr\+En\+Tete}!liste\+De\+Trams@{liste\+De\+Trams}}
+\subsubsection[{\texorpdfstring{suppr\+En\+Tete()}{supprEnTete()}}]{\setlength{\rightskip}{0pt plus 5cm}void liste\+De\+Trams\+::suppr\+En\+Tete (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classliste_de_trams_a495cc9d541621a18e3c10817e62d31bd}{}\label{classliste_de_trams_a495cc9d541621a18e3c10817e62d31bd}
+
+
+S\+U\+P\+P\+R\+E\+S\+S\+I\+O\+NS. 
+
+delete en tete 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classliste_de_trams_a495cc9d541621a18e3c10817e62d31bd_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{liste_de_tramway_8h}{liste\+De\+Tramway.\+h}\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{liste_de_tramway_8cpp}{liste\+De\+Tramway.\+cpp}\end{DoxyCompactItemize}

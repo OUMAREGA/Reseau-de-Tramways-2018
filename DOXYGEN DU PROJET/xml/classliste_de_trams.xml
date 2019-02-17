@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classliste_de_trams" kind="class" language="C++" prot="public">
+    <compoundname>listeDeTrams</compoundname>
+    <includes refid="liste_de_tramway_8h" local="no">listeDeTramway.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classliste_de_trams_1a8d90be1f5aa3c64da2a9e889afb52140" prot="private" static="no" mutable="no">
+        <type><ref refid="classtramway" kindref="compound">tramway</ref> *</type>
+        <definition>tramway* listeDeTrams::d_tete</definition>
+        <argsstring></argsstring>
+        <name>d_tete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="52" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classliste_de_trams_1ab5559640770f04bcbde66a905dcdc5d1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int listeDeTrams::d_nombreDeTrams</definition>
+        <argsstring></argsstring>
+        <name>d_nombreDeTrams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="53" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classliste_de_trams_1a63cd8796fa2fd5b877f378b1c4e8d66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>listeDeTrams::listeDeTrams</definition>
+        <argsstring>()</argsstring>
+        <name>listeDeTrams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Le constructeur </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="34" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="56" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1ac4f850a2d93ad983b485cfa83fdcb57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>listeDeTrams::~listeDeTrams</definition>
+        <argsstring>()</argsstring>
+        <name>~listeDeTrams</name>
+        <briefdescription>
+<para>DESTRUCTEUR. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="35" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="293" bodyend="302"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1acc9f9a3e125a1801cfe108a4a9b27cfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeDeTrams::ajoutEnTete</definition>
+        <argsstring>(int numero, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect)</argsstring>
+        <name>ajoutEnTete</name>
+        <param>
+          <type>int</type>
+          <declname>numero</declname>
+          <defname>numLigne</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vitesseMax</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sens</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>ligneAffect</declname>
+        </param>
+        <briefdescription>
+<para>AJOUTS. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">numLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">vitesseMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ligneAffect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="37" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="88" bodyend="97"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+        <referencedby refid="classliste_de_trams_1aae576aa98d9709644fee9dda66ea54f7" compoundref="liste_de_tramway_8cpp" startline="135" endline="154">ajoutAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1af969635f70bda1d3b429a1220e649d7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeDeTrams::ajoutAuQueue</definition>
+        <argsstring>(int numero, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect)</argsstring>
+        <name>ajoutAuQueue</name>
+        <param>
+          <type>int</type>
+          <declname>numero</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vitesseMax</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sens</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>ligneAffect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">numLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">vitesseMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ligneAffect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="38" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="106" bodyend="125"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+        <referencedby refid="classliste_de_trams_1aae576aa98d9709644fee9dda66ea54f7" compoundref="liste_de_tramway_8cpp" startline="135" endline="154">ajoutAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1aae576aa98d9709644fee9dda66ea54f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeDeTrams::ajoutAuCorps</definition>
+        <argsstring>(int numero, int vitesseMax, bool sens, double posX, double posY, ligne *ligneAffect, int corps)</argsstring>
+        <name>ajoutAuCorps</name>
+        <param>
+          <type>int</type>
+          <declname>numero</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vitesseMax</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sens</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type><ref refid="classligne" kindref="compound">ligne</ref> *</type>
+          <declname>ligneAffect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>corps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">numLigne</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">vitesseMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">posY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">corps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ligneAffect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="39" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="135" bodyend="154"/>
+        <references refid="classliste_de_trams_1acc9f9a3e125a1801cfe108a4a9b27cfc" compoundref="liste_de_tramway_8cpp" startline="88" endline="97">ajoutEnTete</references>
+        <references refid="classliste_de_trams_1af969635f70bda1d3b429a1220e649d7c" compoundref="liste_de_tramway_8cpp" startline="106" endline="125">ajoutAuQueue</references>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1a495cc9d541621a18e3c10817e62d31bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeDeTrams::supprEnTete</definition>
+        <argsstring>()</argsstring>
+        <name>supprEnTete</name>
+        <briefdescription>
+<para>SUPPRESSIONS. </para>        </briefdescription>
+        <detaileddescription>
+<para>delete en tete </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="41" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="159" bodyend="170"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+        <referencedby refid="classliste_de_trams_1a718310361597fbe63375c37f3028defa" compoundref="liste_de_tramway_8cpp" startline="197" endline="215">supprAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1aea83e66431a0a5ff31a631a04f3284cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeDeTrams::supprAuQueue</definition>
+        <argsstring>()</argsstring>
+        <name>supprAuQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>delete au queue </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="42" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="174" bodyend="193"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+        <referencedby refid="classliste_de_trams_1a718310361597fbe63375c37f3028defa" compoundref="liste_de_tramway_8cpp" startline="197" endline="215">supprAuCorps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1a718310361597fbe63375c37f3028defa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeDeTrams::supprAuCorps</definition>
+        <argsstring>(int corps)</argsstring>
+        <name>supprAuCorps</name>
+        <param>
+          <type>int</type>
+          <declname>corps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>delete a une position int corps </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="43" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="197" bodyend="215"/>
+        <references refid="classliste_de_trams_1a495cc9d541621a18e3c10817e62d31bd" compoundref="liste_de_tramway_8cpp" startline="159" endline="170">supprEnTete</references>
+        <references refid="classliste_de_trams_1aea83e66431a0a5ff31a631a04f3284cc" compoundref="liste_de_tramway_8cpp" startline="174" endline="193">supprAuQueue</references>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1aa494f9ab59eb0250608782b536f2aa5f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtramway" kindref="compound">tramway</ref> *</type>
+        <definition>tramway * listeDeTrams::accesEnTete</definition>
+        <argsstring>() const </argsstring>
+        <name>accesEnTete</name>
+        <briefdescription>
+<para>ACCES. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- le premier tram de la liste </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="45" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="220" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1a442cc0dc48c4d8abfd3e8de30a85e24c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtramway" kindref="compound">tramway</ref> *</type>
+        <definition>tramway * listeDeTrams::accesAuQueue</definition>
+        <argsstring>() const </argsstring>
+        <name>accesAuQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- le dernier tram de la liste </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="46" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="230" bodyend="246"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtramway" kindref="compound">tramway</ref> *</type>
+        <definition>tramway * listeDeTrams::accesAuCorps</definition>
+        <argsstring>(int corps) const </argsstring>
+        <name>accesAuCorps</name>
+        <param>
+          <type>int</type>
+          <declname>corps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- le corps ieme tram de la liste </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="47" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="250" bodyend="277"/>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+        <referencedby refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" compoundref="tracer_8cpp" startline="63" endline="67">tracer::placerTrams</referencedby>
+        <referencedby refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" compoundref="tracer_8cpp" startline="139" endline="145">tracer::moveTrams</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1ab1d9638e4f071077f5182413ae8b1c8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void listeDeTrams::afficherListe</definition>
+        <argsstring>() const </argsstring>
+        <name>afficherListe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Affiche la liste tram au niveau console </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="48" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="62" bodyend="78"/>
+        <references refid="classtramway_1a937d549fcbdbe222ea08e4ec085bb19b" compoundref="liste_de_tramway_8h" startline="15">tramway::numLigne</references>
+        <references refid="classtramway_1a1ed327c50d74d61632664f0f460c6cf2" compoundref="liste_de_tramway_8h" startline="24">tramway::suivant</references>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1a137520c68e8c14b3cbfa1711d21849a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool listeDeTrams::estVide</definition>
+        <argsstring>() const </argsstring>
+        <name>estVide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- si le nombre tram =0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="49" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classliste_de_trams_1afd3b9e87aa935dca81ce3f6d1aea6f75" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int listeDeTrams::nombreDeTrams</definition>
+        <argsstring>() const </argsstring>
+        <name>nombreDeTrams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>- le nombre tram </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="50" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp" bodystart="288" bodyend="291"/>
+        <referencedby refid="classtracer_1ae50f04257d21db5b947cd8548414a0f7" compoundref="tracer_8cpp" startline="63" endline="67">tracer::placerTrams</referencedby>
+        <referencedby refid="classtracer_1a206500c8582dbad012b898dc922fc5a7" compoundref="tracer_8cpp" startline="139" endline="145">tracer::moveTrams</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" line="32" column="1" bodyfile="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h" bodystart="31" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classliste_de_trams_1a2e66b663287f770c709c16d89424818e" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>accesAuCorps</name></member>
+      <member refid="classliste_de_trams_1a442cc0dc48c4d8abfd3e8de30a85e24c" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>accesAuQueue</name></member>
+      <member refid="classliste_de_trams_1aa494f9ab59eb0250608782b536f2aa5f" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>accesEnTete</name></member>
+      <member refid="classliste_de_trams_1ab1d9638e4f071077f5182413ae8b1c8c" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>afficherListe</name></member>
+      <member refid="classliste_de_trams_1aae576aa98d9709644fee9dda66ea54f7" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>ajoutAuCorps</name></member>
+      <member refid="classliste_de_trams_1af969635f70bda1d3b429a1220e649d7c" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>ajoutAuQueue</name></member>
+      <member refid="classliste_de_trams_1acc9f9a3e125a1801cfe108a4a9b27cfc" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>ajoutEnTete</name></member>
+      <member refid="classliste_de_trams_1ab5559640770f04bcbde66a905dcdc5d1" prot="private" virt="non-virtual"><scope>listeDeTrams</scope><name>d_nombreDeTrams</name></member>
+      <member refid="classliste_de_trams_1a8d90be1f5aa3c64da2a9e889afb52140" prot="private" virt="non-virtual"><scope>listeDeTrams</scope><name>d_tete</name></member>
+      <member refid="classliste_de_trams_1a137520c68e8c14b3cbfa1711d21849a1" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>estVide</name></member>
+      <member refid="classliste_de_trams_1a63cd8796fa2fd5b877f378b1c4e8d66d" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>listeDeTrams</name></member>
+      <member refid="classliste_de_trams_1afd3b9e87aa935dca81ce3f6d1aea6f75" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>nombreDeTrams</name></member>
+      <member refid="classliste_de_trams_1a718310361597fbe63375c37f3028defa" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>supprAuCorps</name></member>
+      <member refid="classliste_de_trams_1aea83e66431a0a5ff31a631a04f3284cc" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>supprAuQueue</name></member>
+      <member refid="classliste_de_trams_1a495cc9d541621a18e3c10817e62d31bd" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>supprEnTete</name></member>
+      <member refid="classliste_de_trams_1ac4f850a2d93ad983b485cfa83fdcb57d" prot="public" virt="non-virtual"><scope>listeDeTrams</scope><name>~listeDeTrams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

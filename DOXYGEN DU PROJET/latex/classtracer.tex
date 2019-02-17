@@ -1,0 +1,185 @@
+\hypertarget{classtracer}{}\section{tracer Class Reference}
+\label{classtracer}\index{tracer@{tracer}}
+
+
+{\ttfamily \#include $<$tracer.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classtracer_ad341e6024da0488dd9c3ff9767333ab0}{tracer} (int largeur, int hauteur)
+\item 
+void \hyperlink{classtracer_a4d68d6842a65f6f153026357847b49fc}{placer\+Arret} (\hyperlink{classarret}{arret} $\ast$un\+Arret) const 
+\item 
+void \hyperlink{classtracer_a9d82959867464033e3b68892023969ce}{placer\+Arrets} (\hyperlink{classligne}{ligne} $\ast$une\+Ligne) const 
+\item 
+void \hyperlink{classtracer_a37ba471b0824655b4a6a2820d6b7ee56}{liens\+Arrets} (\hyperlink{classligne}{ligne} $\ast$une\+Ligne) const 
+\item 
+void \hyperlink{classtracer_a747a35b63db6765185c0de6f652f8c13}{placer\+Tram} (\hyperlink{classtramway}{tramway} $\ast$tram) const 
+\item 
+void \hyperlink{classtracer_ae50f04257d21db5b947cd8548414a0f7}{placer\+Trams} (\hyperlink{classligne}{ligne} $\ast$une\+Ligne) const 
+\item 
+void \hyperlink{classtracer_a31536796cd89d2ee47a7d5e17432bc65}{build\+Ligne} (\hyperlink{classligne}{ligne} $\ast$une\+Ligne) const 
+\item 
+void \hyperlink{classtracer_a59f9f4e714b1ebcf114ae7ca648e7d8c}{move\+Tram} (\hyperlink{classtramway}{tramway} $\ast$tram)
+\item 
+void \hyperlink{classtracer_a206500c8582dbad012b898dc922fc5a7}{move\+Trams} (\hyperlink{classligne}{ligne} $\ast$une\+Ligne)
+\item 
+void \hyperlink{classtracer_a1ac543894333a48a09a1a423d33b20a5}{simuler\+Tram} (std\+::vector$<$ \hyperlink{classligne}{ligne} $\ast$ $>$ \&lignes, int temps\+Simul)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{tracer@{tracer}!tracer@{tracer}}
+\index{tracer@{tracer}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{tracer(int largeur, int hauteur)}{tracer(int largeur, int hauteur)}}]{\setlength{\rightskip}{0pt plus 5cm}tracer\+::tracer (
+\begin{DoxyParamCaption}
+\item[{int}]{largeur, }
+\item[{int}]{hauteur}
+\end{DoxyParamCaption}
+)}\hypertarget{classtracer_ad341e6024da0488dd9c3ff9767333ab0}{}\label{classtracer_ad341e6024da0488dd9c3ff9767333ab0}
+
+
+\subsection{Member Function Documentation}
+\index{tracer@{tracer}!build\+Ligne@{build\+Ligne}}
+\index{build\+Ligne@{build\+Ligne}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{build\+Ligne(ligne $\ast$une\+Ligne) const }{buildLigne(ligne *uneLigne) const }}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::build\+Ligne (
+\begin{DoxyParamCaption}
+\item[{{\bf ligne} $\ast$}]{une\+Ligne}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtracer_a31536796cd89d2ee47a7d5e17432bc65}{}\label{classtracer_a31536796cd89d2ee47a7d5e17432bc65}
+\index{tracer@{tracer}!liens\+Arrets@{liens\+Arrets}}
+\index{liens\+Arrets@{liens\+Arrets}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{liens\+Arrets(ligne $\ast$une\+Ligne) const }{liensArrets(ligne *uneLigne) const }}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::liens\+Arrets (
+\begin{DoxyParamCaption}
+\item[{{\bf ligne} $\ast$}]{une\+Ligne}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtracer_a37ba471b0824655b4a6a2820d6b7ee56}{}\label{classtracer_a37ba471b0824655b4a6a2820d6b7ee56}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classtracer_a37ba471b0824655b4a6a2820d6b7ee56_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{tracer@{tracer}!move\+Tram@{move\+Tram}}
+\index{move\+Tram@{move\+Tram}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{move\+Tram(tramway $\ast$tram)}{moveTram(tramway *tram)}}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::move\+Tram (
+\begin{DoxyParamCaption}
+\item[{{\bf tramway} $\ast$}]{tram}
+\end{DoxyParamCaption}
+)}\hypertarget{classtracer_a59f9f4e714b1ebcf114ae7ca648e7d8c}{}\label{classtracer_a59f9f4e714b1ebcf114ae7ca648e7d8c}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{classtracer_a59f9f4e714b1ebcf114ae7ca648e7d8c_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{tracer@{tracer}!move\+Trams@{move\+Trams}}
+\index{move\+Trams@{move\+Trams}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{move\+Trams(ligne $\ast$une\+Ligne)}{moveTrams(ligne *uneLigne)}}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::move\+Trams (
+\begin{DoxyParamCaption}
+\item[{{\bf ligne} $\ast$}]{une\+Ligne}
+\end{DoxyParamCaption}
+)}\hypertarget{classtracer_a206500c8582dbad012b898dc922fc5a7}{}\label{classtracer_a206500c8582dbad012b898dc922fc5a7}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtracer_a206500c8582dbad012b898dc922fc5a7_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{tracer@{tracer}!placer\+Arret@{placer\+Arret}}
+\index{placer\+Arret@{placer\+Arret}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{placer\+Arret(arret $\ast$un\+Arret) const }{placerArret(arret *unArret) const }}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::placer\+Arret (
+\begin{DoxyParamCaption}
+\item[{{\bf arret} $\ast$}]{un\+Arret}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtracer_a4d68d6842a65f6f153026357847b49fc}{}\label{classtracer_a4d68d6842a65f6f153026357847b49fc}
+\index{tracer@{tracer}!placer\+Arrets@{placer\+Arrets}}
+\index{placer\+Arrets@{placer\+Arrets}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{placer\+Arrets(ligne $\ast$une\+Ligne) const }{placerArrets(ligne *uneLigne) const }}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::placer\+Arrets (
+\begin{DoxyParamCaption}
+\item[{{\bf ligne} $\ast$}]{une\+Ligne}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtracer_a9d82959867464033e3b68892023969ce}{}\label{classtracer_a9d82959867464033e3b68892023969ce}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classtracer_a9d82959867464033e3b68892023969ce_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{tracer@{tracer}!placer\+Tram@{placer\+Tram}}
+\index{placer\+Tram@{placer\+Tram}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{placer\+Tram(tramway $\ast$tram) const }{placerTram(tramway *tram) const }}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::placer\+Tram (
+\begin{DoxyParamCaption}
+\item[{{\bf tramway} $\ast$}]{tram}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtracer_a747a35b63db6765185c0de6f652f8c13}{}\label{classtracer_a747a35b63db6765185c0de6f652f8c13}
+\index{tracer@{tracer}!placer\+Trams@{placer\+Trams}}
+\index{placer\+Trams@{placer\+Trams}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{placer\+Trams(ligne $\ast$une\+Ligne) const }{placerTrams(ligne *uneLigne) const }}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::placer\+Trams (
+\begin{DoxyParamCaption}
+\item[{{\bf ligne} $\ast$}]{une\+Ligne}
+\end{DoxyParamCaption}
+) const}\hypertarget{classtracer_ae50f04257d21db5b947cd8548414a0f7}{}\label{classtracer_ae50f04257d21db5b947cd8548414a0f7}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classtracer_ae50f04257d21db5b947cd8548414a0f7_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{tracer@{tracer}!simuler\+Tram@{simuler\+Tram}}
+\index{simuler\+Tram@{simuler\+Tram}!tracer@{tracer}}
+\subsubsection[{\texorpdfstring{simuler\+Tram(std\+::vector$<$ ligne $\ast$ $>$ \&lignes, int temps\+Simul)}{simulerTram(std::vector< ligne * > &lignes, int tempsSimul)}}]{\setlength{\rightskip}{0pt plus 5cm}void tracer\+::simuler\+Tram (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ {\bf ligne} $\ast$ $>$ \&}]{lignes, }
+\item[{int}]{temps\+Simul}
+\end{DoxyParamCaption}
+)}\hypertarget{classtracer_a1ac543894333a48a09a1a423d33b20a5}{}\label{classtracer_a1ac543894333a48a09a1a423d33b20a5}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classtracer_a1ac543894333a48a09a1a423d33b20a5_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{tracer_8h}{tracer.\+h}\item 
+C\+:/\+Users/oumar12/\+Desktop/\+T\+R\+A\+M\+W\+A\+Y\+S/\+T\+R\+A\+M\+W\+A\+Y\+S/\hyperlink{tracer_8cpp}{tracer.\+cpp}\end{DoxyCompactItemize}

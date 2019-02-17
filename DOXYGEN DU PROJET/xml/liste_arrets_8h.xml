@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="liste_arrets_8h" kind="file" language="C++">
+    <compoundname>listeArrets.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="ligne_8h" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h</includedby>
+    <includedby refid="lecture_x_m_l_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</includedby>
+    <includedby refid="tracer_8h" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</includedby>
+    <includedby refid="liste_arrets_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</includedby>
+    <incdepgraph>
+      <node id="200">
+        <label>string</label>
+      </node>
+      <node id="199">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h</label>
+        <link refid="listeArrets.h"/>
+        <childnode refid="200" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="202">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.h</label>
+        <link refid="ligne_8h"/>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.cpp</label>
+        <link refid="liste_arrets_8cpp"/>
+      </node>
+      <node id="208">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.cpp</label>
+        <link refid="liste_de_tramway_8cpp"/>
+      </node>
+      <node id="207">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.cpp</label>
+        <link refid="tracer_8cpp"/>
+      </node>
+      <node id="205">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/tracer.h</label>
+        <link refid="tracer_8h"/>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h</label>
+        <link refid="listeArrets.h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/ligne.cpp</label>
+        <link refid="ligne_8cpp"/>
+      </node>
+      <node id="204">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/lectureXML.cpp</label>
+        <link refid="lecture_x_m_l_8cpp"/>
+      </node>
+      <node id="206">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="203">
+        <label>C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeDeTramway.h</label>
+        <link refid="liste_de_tramway_8h"/>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classarret" prot="public">arret</innerclass>
+    <innerclass refid="classliste_arrets" prot="public">listeArrets</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>LISTEARRETS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LISTEARRETS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classarret" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classarret" kindref="compound">arret</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="classarret_1af9ab36d65ca58c516f6f72ca840ebd7b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classliste_arrets" kindref="compound">listeArrets</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classarret_1ae38cddedd9355eeaebbafe40bcb4b0bc" kindref="member">arret</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classarret_1afc7a6e7cb0cb73e242a4c6ad8743995c" kindref="member">tempsArret</ref>,std::string<sp/><ref refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" kindref="member">nomArret</ref>);</highlight></codeline>
+<codeline lineno="11" refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/><ref refid="classarret_1a69ca61ad6399a414b15a2bcc1cc4a81c" kindref="member">prochainArret</ref>;</highlight></codeline>
+<codeline lineno="12" refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>;</highlight></codeline>
+<codeline lineno="13" refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>;<sp/></highlight><highlight class="comment">//<sp/>coordonnees<sp/>de<sp/>l&apos;arret<sp/>suivant<sp/>x<sp/>et<sp/>y</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classarret_1afc7a6e7cb0cb73e242a4c6ad8743995c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classarret_1afc7a6e7cb0cb73e242a4c6ad8743995c" kindref="member">tempsArret</ref>;<sp/></highlight><highlight class="comment">//<sp/>le<sp/>temps<sp/>d&apos;arret<sp/>en<sp/>seconde<sp/>au<sp/>niveau<sp/>des<sp/>arrets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" kindref="member">nomArret</ref>;<sp/></highlight><highlight class="comment">//<sp/>nom<sp/>de<sp/>l&apos;arret</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classarret_1aff9a2ea0c2261ea5ea0c04e5b84880bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classarret_1aff9a2ea0c2261ea5ea0c04e5b84880bb" kindref="member">numTramsSurPlace</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classliste_arrets" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classliste_arrets" kindref="compound">listeArrets</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classarret_1af9ab36d65ca58c516f6f72ca840ebd7b" kindref="member">listeArrets</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ajoutEnTete(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classarret_1a10d9c6ad4411da3b31072f04633745d1" kindref="member">posX</ref>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classarret_1a87be7e932dbc73b03ba64969c1413faa" kindref="member">posY</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classarret_1afc7a6e7cb0cb73e242a4c6ad8743995c" kindref="member">tempsArret</ref>,std::string<sp/><ref refid="classarret_1a543d7100f999b9f0267945bf44c67d4b" kindref="member">nomArret</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ajoutAuCorps(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posX,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posY,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tempsArret,std::string<sp/>nomArret,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>corps);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ajoutAuQueue(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posX,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posY,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tempsArret,std::string<sp/>nomArret);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>supprEnTete();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>supprAuCorps(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>corps);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>supprAuQueue();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/>accesEnTete()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/>accesAuCorps(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>corps)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*accesAuQueue()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>afficherListe()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>estAucunArret()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nombreArrets()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classliste_arrets" kindref="compound">listeArrets</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classarret" kindref="compound">arret</ref><sp/>*<sp/>d_tete;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d_nombreArrets;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>LISTEARRETS_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/oumar12/Desktop/TRAMWAYS/TRAMWAYS/listeArrets.h"/>
+  </compounddef>
+</doxygen>
